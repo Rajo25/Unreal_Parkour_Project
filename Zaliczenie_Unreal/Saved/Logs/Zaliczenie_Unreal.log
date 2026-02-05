@@ -2511,3 +2511,390 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.05-14.38.46:937][304]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
 [2026.02.05-14.38.46:950][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
 [2026.02.05-14.38.47:049][305]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.02.05-14.41.19:601][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.05-14.41.19:753][621]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/DamageBox] ([2] browsable assets)...
+[2026.02.05-14.41.19:824][621]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DamageBox.DamageBox]
+[2026.02.05-14.41.19:824][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/DamageBox]
+[2026.02.05-14.41.19:824][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DamageBox" FILE="../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/DamageBox.uasset" SILENT=true
+[2026.02.05-14.41.19:845][621]LogSavePackage: Moving output files for package: /Game/DamageBox
+[2026.02.05-14.41.19:846][621]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/DamageBox5C9EB4034EE7F01B8DD47B80E67E054C.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/DamageBox.uasset'
+[2026.02.05-14.41.19:863][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 261.711 ms (total: 2.97 sec)
+[2026.02.05-14.41.19:993][621]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.05-14.41.19:993][621]LogContentValidation: Enabled validators:
+[2026.02.05-14.41.19:993][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.05-14.41.19:993][621]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.05-14.41.19:993][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.05-14.41.19:993][621]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.05-14.41.19:993][621]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.05-14.41.19:993][621]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.05-14.41.19:993][621]AssetCheck: /Game/DamageBox Validating asset
+[2026.02.05-14.41.54:482][467]LogContentBrowser: Attempting asset rename: DamageBox -> KillingFloor
+[2026.02.05-14.41.54:824][467]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.05-14.41.54:824][467]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/KillingFloor] ([2] browsable assets)...
+[2026.02.05-14.41.54:825][467]OBJ SavePackage: Finished generating thumbnails for package [/Game/KillingFloor]
+[2026.02.05-14.41.54:825][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KillingFloor" FILE="../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/KillingFloor.uasset" SILENT=true
+[2026.02.05-14.41.54:842][467]LogSavePackage: Moving output files for package: /Game/KillingFloor
+[2026.02.05-14.41.54:842][467]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/KillingFloorA1C1D01740C22D29B818568E71B74336.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/KillingFloor.uasset'
+[2026.02.05-14.41.54:853][467]LogFileHelpers: InternalPromptForCheckoutAndSave took 29.893 ms (total: 3.00 sec)
+[2026.02.05-14.41.54:927][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2026.02.05-14.41.54:968][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.02.05-14.41.55:002][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.02.05-14.41.55:158][467]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.05-14.41.55:158][467]LogContentValidation: Enabled validators:
+[2026.02.05-14.41.55:158][467]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.05-14.41.55:158][467]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.05-14.41.55:158][467]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.05-14.41.55:158][467]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.05-14.41.55:158][467]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.05-14.41.55:159][467]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.05-14.41.55:159][467]AssetCheck: /Game/KillingFloor Validating asset
+[2026.02.05-14.41.55:179][467]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.02.05-14.41.55:232][467]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.05-14.41.58:074][600]LogContentBrowser: Deferred new asset file creation: KillingFloor1
+[2026.02.05-14.41.58:091][600]LogContentBrowser: Creating deferred item: KillingFloor1
+[2026.02.05-14.41.58:117][601]LogContentBrowser: Renaming the item being created (Deferred Item: KillingFloor1).
+[2026.02.05-14.42.15:797][653]LogContentBrowser: Attempting asset rename: KillingFloor1 -> KillingMovingObject
+[2026.02.05-14.42.15:843][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2026.02.05-14.42.15:860][653]LogContentBrowser: End creating deferred item KillingFloor1
+[2026.02.05-14.42.15:861][653]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.02.05-14.42.19:661][851]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/KillingMovingObject.KillingMovingObject
+[2026.02.05-14.42.19:662][851]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.02.05-14.42.28:340][175]LogDerivedDataCache: C:/Users/flash/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.05-14.44.03:745][719]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7410.392578
+[2026.02.05-14.44.05:079][723]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.05-14.44.05:079][723]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7411.392578, Update Interval: 329.497375
+[2026.02.05-14.45.48:834][912]LogBlueprint: Warning: [AssetLog] /Game/KillingMovingObject.KillingMovingObject: [Compiler] Could not find a variable named "InterpToMovement" in '/Game/KillingMovingObject.KillingMovingObject_C'.
+Make sure '/Game/KillingMovingObject.KillingMovingObject_C' has been compiled for  Get InterpToMovement
+[2026.02.05-14.45.48:834][912]LogBlueprint: Warning: [AssetLog] /Game/KillingMovingObject.KillingMovingObject: [Compiler] Could not find a variable named "InterpToMovement" in '/Game/KillingMovingObject.KillingMovingObject_C'.
+Make sure '/Game/KillingMovingObject.KillingMovingObject_C' has been compiled for  Get InterpToMovement
+[2026.02.05-14.45.48:834][912]LogBlueprint: Warning: [AssetLog] /Game/KillingMovingObject.KillingMovingObject: [Compiler] Could not find a variable named "MovetoPos" in '/Game/KillingMovingObject.KillingMovingObject_C'.
+Make sure '/Game/KillingMovingObject.KillingMovingObject_C' has been compiled for  Get MovetoPos
+[2026.02.05-14.45.48:836][912]LogBlueprint: Error: [AssetLog] /Game/KillingMovingObject.KillingMovingObject: [Compiler] The property associated with  Moveto Pos  could not be found in '/Game/KillingMovingObject.KillingMovingObject_C'
+[2026.02.05-14.45.48:836][912]LogBlueprint: Error: [AssetLog] /Game/KillingMovingObject.KillingMovingObject: [Compiler] The property associated with  Interp to Movement  could not be found in '/Game/KillingMovingObject.KillingMovingObject_C'
+[2026.02.05-14.45.48:836][912]LogBlueprint: Error: [AssetLog] /Game/KillingMovingObject.KillingMovingObject: [Compiler] The property associated with  Interp to Movement  could not be found in '/Game/KillingMovingObject.KillingMovingObject_C'
+[2026.02.05-14.45.48:842][912]LogStreaming: Display: FlushAsyncLoading(540): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.05-14.45.48:934][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2026.02.05-14.45.57:357][362]LogEditorTransaction: Undo Create Pin Link
+[2026.02.05-14.46.30:247][925]LogBlueprint: Warning: [AssetLog] /Game/KillingMovingObject.KillingMovingObject: [Compiler] Could not find a variable named "MovetoPos" in '/Game/KillingMovingObject.KillingMovingObject_C'.
+Make sure '/Game/KillingMovingObject.KillingMovingObject_C' has been compiled for  Get MovetoPos
+[2026.02.05-14.46.30:248][925]LogBlueprint: Error: [AssetLog] /Game/KillingMovingObject.KillingMovingObject: [Compiler] The property associated with  Moveto Pos  could not be found in '/Game/KillingMovingObject.KillingMovingObject_C'
+[2026.02.05-14.46.30:306][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2026.02.05-14.47.06:508][ 88]LogSlate: Window 'Change Variable Type' being destroyed
+[2026.02.05-14.47.15:523][441]LogSlate: Window 'Change Variable Type' being destroyed
+[2026.02.05-14.47.16:331][442]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2026.02.05-14.47.16:375][442]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/LvL_1_Auto8
+[2026.02.05-14.47.16:375][442]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/LvL_1_Auto85B5B360E4D82C2EA5D4CDFB90E900F26.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/Autosaves/Game/FirstPerson/LvL_1_Auto8.umap'
+[2026.02.05-14.47.16:379][442]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/LvL_1' took 0.189
+[2026.02.05-14.47.16:379][442]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.189
+[2026.02.05-14.47.16:380][442]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MovingPlatform] ([2] browsable assets)...
+[2026.02.05-14.47.16:403][442]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MovingPlatform.MovingPlatform]
+[2026.02.05-14.47.16:404][442]OBJ SavePackage: Finished generating thumbnails for package [/Game/MovingPlatform]
+[2026.02.05-14.47.16:439][442]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MovingPlatform_Auto8
+[2026.02.05-14.47.16:439][442]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/MovingPlatform_Auto8C458BF6E48ACB69D534281A3558A2A56.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/Autosaves/Game/MovingPlatform_Auto8.uasset'
+[2026.02.05-14.47.16:441][442]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/KillingMovingObject] ([2] browsable assets)...
+[2026.02.05-14.47.16:463][442]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/KillingMovingObject.KillingMovingObject]
+[2026.02.05-14.47.16:463][442]OBJ SavePackage: Finished generating thumbnails for package [/Game/KillingMovingObject]
+[2026.02.05-14.47.16:497][442]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/KillingMovingObject_Auto8
+[2026.02.05-14.47.16:497][442]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/KillingMovingObject_Auto8BF261E8D436BD144407B08949C1AA8BC.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/Autosaves/Game/KillingMovingObject_Auto8.uasset'
+[2026.02.05-14.47.16:499][442]LogFileHelpers: Auto-saving content packages took 0.120
+[2026.02.05-14.47.35:397][304]LogSlate: Window 'Find in Blueprints' being destroyed
+[2026.02.05-14.47.35:413][304]LogSlate: Window 'Find in Blueprints' being destroyed
+[2026.02.05-14.47.55:588][256]LogEditorTransaction: Undo Add Node
+[2026.02.05-14.48.29:298][ 33]LogEditorTransaction: Undo Add Node
+[2026.02.05-14.48.39:312][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2026.02.05-14.48.42:200][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.05-14.48.42:326][634]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/KillingMovingObject] ([2] browsable assets)...
+[2026.02.05-14.48.42:384][634]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/KillingMovingObject.KillingMovingObject]
+[2026.02.05-14.48.42:385][634]OBJ SavePackage: Finished generating thumbnails for package [/Game/KillingMovingObject]
+[2026.02.05-14.48.42:385][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KillingMovingObject" FILE="../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/KillingMovingObject.uasset" SILENT=true
+[2026.02.05-14.48.42:404][634]LogSavePackage: Moving output files for package: /Game/KillingMovingObject
+[2026.02.05-14.48.42:404][634]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/KillingMovingObjectF7B911BA4BA9FB15890BF2A8A3D26522.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/KillingMovingObject.uasset'
+[2026.02.05-14.48.42:426][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 225.798 ms (total: 3.23 sec)
+[2026.02.05-14.48.42:527][634]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.05-14.48.42:527][634]LogContentValidation: Enabled validators:
+[2026.02.05-14.48.42:527][634]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.05-14.48.42:527][634]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.05-14.48.42:527][634]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.05-14.48.42:527][634]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.05-14.48.42:527][634]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.05-14.48.42:527][634]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.05-14.48.42:527][634]AssetCheck: /Game/KillingMovingObject Validating asset
+[2026.02.05-14.48.42:567][634]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.05-14.48.48:249][924]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KillingMovingObject.KillingMovingObject_C
+[2026.02.05-14.48.48:249][924]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KillingMovingObject.KillingMovingObject_C
+[2026.02.05-14.48.48:252][924]LogActorFactory: Actor Factory spawned Blueprint /Game/KillingMovingObject.KillingMovingObject as actor: KillingMovingObject_C /Game/FirstPerson/LvL_1.LvL_1:PersistentLevel.KillingMovingObject_C_0
+[2026.02.05-14.48.48:256][924]LogActorFactory: Actor Factory spawned Blueprint /Game/KillingMovingObject.KillingMovingObject as actor: KillingMovingObject_C /Game/FirstPerson/LvL_1.LvL_1:PersistentLevel.KillingMovingObject_C_0
+[2026.02.05-14.48.49:651][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.02.05-14.48.49:689][985]LogEditorActor: Deleted 0 Actors (0.074 secs)
+[2026.02.05-14.48.49:697][985]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KillingMovingObject.KillingMovingObject_C
+[2026.02.05-14.48.49:697][985]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/KillingMovingObject.KillingMovingObject_C
+[2026.02.05-14.48.49:701][985]LogActorFactory: Actor Factory spawned Blueprint /Game/KillingMovingObject.KillingMovingObject as actor: KillingMovingObject_C /Game/FirstPerson/LvL_1.LvL_1:PersistentLevel.KillingMovingObject_C_1
+[2026.02.05-14.48.49:704][985]LogActorFactory: Actor Factory spawned Blueprint /Game/KillingMovingObject.KillingMovingObject as actor: KillingMovingObject_C /Game/FirstPerson/LvL_1.LvL_1:PersistentLevel.KillingMovingObject_C_1
+[2026.02.05-14.49.32:912][102]LogEditorTransaction: Undo Modify Component Scale
+[2026.02.05-14.49.52:870][ 47]LogEditorTransaction: Undo Modify Component(s)
+[2026.02.05-14.49.58:921][321]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.05-14.49.59:048][321]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/KillingMovingObject] ([2] browsable assets)...
+[2026.02.05-14.49.59:062][321]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/KillingMovingObject.KillingMovingObject]
+[2026.02.05-14.49.59:062][321]OBJ SavePackage: Finished generating thumbnails for package [/Game/KillingMovingObject]
+[2026.02.05-14.49.59:062][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KillingMovingObject" FILE="../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/KillingMovingObject.uasset" SILENT=true
+[2026.02.05-14.49.59:083][321]LogSavePackage: Moving output files for package: /Game/KillingMovingObject
+[2026.02.05-14.49.59:084][321]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/KillingMovingObject84EB77D8482F2D0B25254594E516AF7B.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/KillingMovingObject.uasset'
+[2026.02.05-14.49.59:099][321]LogFileHelpers: InternalPromptForCheckoutAndSave took 178.751 ms (total: 3.40 sec)
+[2026.02.05-14.49.59:243][321]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.05-14.49.59:243][321]LogContentValidation: Enabled validators:
+[2026.02.05-14.49.59:243][321]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.05-14.49.59:243][321]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.05-14.49.59:243][321]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.05-14.49.59:243][321]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.05-14.49.59:243][321]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.05-14.49.59:243][321]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.05-14.49.59:243][321]AssetCheck: /Game/KillingMovingObject Validating asset
+[2026.02.05-14.49.59:893][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2026.02.05-14.50.03:817][540]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.05-14.50.03:829][540]LogPlayLevel: [PlayLevel] Compiling MovingPlatform before play...
+[2026.02.05-14.50.03:904][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2026.02.05-14.50.03:909][540]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (1 blueprints)
+[2026.02.05-14.50.03:909][540]LogPlayLevel: Display: Creating online subsystem for client :Context_25
+[2026.02.05-14.50.03:912][540]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2026.02.05-14.50.03:952][541]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.50.03:960][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008028s)
+[2026.02.05-14.50.03:961][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/LvL_1.LvL_1 to /Game/FirstPerson/UEDPIE_0_LvL_1.LvL_1 (0.008109s)
+[2026.02.05-14.50.03:999][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2026.02.05-14.50.04:002][541]LogChaosDD: Creating Chaos Debug Draw Scene for world LvL_1
+[2026.02.05-14.50.04:004][541]LogPlayLevel: PIE: World Init took: (0.002553s)
+[2026.02.05-14.50.04:006][541]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.02.05-14.50.04:006][541]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.05-14.50.04:006][541]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.05-14.50.04:006][541]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.05-14.50.04:006][541]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.05-14.50.04:006][541]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.05-14.50.04:006][541]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.05-14.50.04:006][541]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.05-14.50.04:006][541]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.05-14.50.04:006][541]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.05-14.50.04:006][541]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.05-14.50.04:006][541]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.05-14.50.04:008][541]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.05-14.50.04:098][541]LogAudioMixer: Display: Using Audio Hardware Device Słuchawki (Realtek(R) Audio)
+[2026.02.05-14.50.04:098][541]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.05-14.50.04:098][541]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.05-14.50.04:098][541]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.05-14.50.04:099][541]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.02.05-14.50.04:099][541]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.02.05-14.50.04:102][541]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.02.05-14.50.04:102][541]LogInit: FAudioDevice initialized with ID 11.
+[2026.02.05-14.50.04:102][541]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.02.05-14.50.04:102][541]LogAudio: Display: Audio Device (ID: 11) registered with world 'LvL_1'.
+[2026.02.05-14.50.04:102][541]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.02.05-14.50.04:106][541]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.05-14.50.04:109][541]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_LvL_1.LvL_1 up for play (max tick rate 60) at 2026.02.05-15.50.04
+[2026.02.05-14.50.04:109][541]LogWorld: Bringing up level for play took: 0.002345
+[2026.02.05-14.50.04:117][541]PIE: Server logged in
+[2026.02.05-14.50.04:120][541]PIE: Play in editor total start time 0,294 seconds.
+[2026.02.05-14.50.04:189][542]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-14.50.06:857][697]Cmd: RestartLevel
+[2026.02.05-14.50.06:872][698]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/LvL_1?restart"
+[2026.02.05-14.50.06:872][698]LogNet: Browse: /Game/FirstPerson/LvL_1?restart
+[2026.02.05-14.50.06:872][698]LogLoad: LoadMap: /Game/FirstPerson/LvL_1
+[2026.02.05-14.50.06:872][698]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.50.06:873][698]LogWorld: UWorld::CleanupWorld for LvL_1, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-14.50.06:874][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-14.50.06:938][698]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.05-14.50.06:942][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2026.02.05-14.50.06:944][698]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.50.06:950][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005712s)
+[2026.02.05-14.50.06:950][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/LvL_1.LvL_1 to /Game/FirstPerson/UEDPIE_0_LvL_1.LvL_1 (0.005790s)
+[2026.02.05-14.50.06:950][698]LogAudio: Display: Audio Device (ID: 11) registered with world 'LvL_1'.
+[2026.02.05-14.50.06:950][698]LogChaosDD: Creating Chaos Debug Draw Scene for world LvL_1
+[2026.02.05-14.50.06:952][698]LogPlayLevel: PIE: World Init took: (0.001960s)
+[2026.02.05-14.50.06:952][698]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.05-14.50.06:955][698]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_LvL_1.LvL_1 up for play (max tick rate 60) at 2026.02.05-15.50.06
+[2026.02.05-14.50.06:955][698]LogWorld: Bringing up level for play took: 0.002492
+[2026.02.05-14.50.06:962][698]LogLoad: Took 0.090098 seconds to LoadMap(/Game/FirstPerson/UEDPIE_0_LvL_1)
+[2026.02.05-14.50.06:963][698]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.50.06:973][698]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-14.50.10:276][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-14.50.10:276][894]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.50.10:277][894]LogWorld: UWorld::CleanupWorld for LvL_1, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-14.50.10:277][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-14.50.10:280][894]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.05-14.50.10:288][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-14.50.10:321][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-14.50.10:321][894]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.02.05-14.50.10:321][894]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2026.02.05-14.50.10:324][894]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2026.02.05-14.50.10:337][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2026.02.05-14.50.10:413][895]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2026.02.05-14.50.12:603][ 23]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7779.235352
+[2026.02.05-14.50.12:969][ 45]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.05-14.50.12:969][ 45]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7779.584961, Update Interval: 317.459625
+[2026.02.05-14.51.32:679][902]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.05-14.51.32:686][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.05-14.51.32:719][902]LogPlayLevel: Display: Creating online subsystem for client :Context_26
+[2026.02.05-14.51.32:722][902]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2026.02.05-14.51.32:760][903]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.51.32:769][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008387s)
+[2026.02.05-14.51.32:769][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/LvL_1.LvL_1 to /Game/FirstPerson/UEDPIE_0_LvL_1.LvL_1 (0.008462s)
+[2026.02.05-14.51.32:802][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.02.05-14.51.32:805][903]LogChaosDD: Creating Chaos Debug Draw Scene for world LvL_1
+[2026.02.05-14.51.32:807][903]LogPlayLevel: PIE: World Init took: (0.001990s)
+[2026.02.05-14.51.32:808][903]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.02.05-14.51.32:808][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.05-14.51.32:808][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.05-14.51.32:808][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.05-14.51.32:808][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.05-14.51.32:808][903]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.05-14.51.32:808][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.05-14.51.32:808][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.05-14.51.32:808][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.05-14.51.32:808][903]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.05-14.51.32:808][903]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.05-14.51.32:808][903]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.05-14.51.32:810][903]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.05-14.51.32:896][903]LogAudioMixer: Display: Using Audio Hardware Device Słuchawki (Realtek(R) Audio)
+[2026.02.05-14.51.32:897][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.05-14.51.32:897][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.05-14.51.32:897][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.05-14.51.32:898][903]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.02.05-14.51.32:898][903]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.02.05-14.51.32:902][903]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.02.05-14.51.32:902][903]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.02.05-14.51.32:902][903]LogInit: FAudioDevice initialized with ID 12.
+[2026.02.05-14.51.32:902][903]LogAudio: Display: Audio Device (ID: 12) registered with world 'LvL_1'.
+[2026.02.05-14.51.32:902][903]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.02.05-14.51.32:907][903]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.05-14.51.32:911][903]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_LvL_1.LvL_1 up for play (max tick rate 60) at 2026.02.05-15.51.32
+[2026.02.05-14.51.32:911][903]LogWorld: Bringing up level for play took: 0.003556
+[2026.02.05-14.51.32:919][903]PIE: Server logged in
+[2026.02.05-14.51.32:921][903]PIE: Play in editor total start time 0,236 seconds.
+[2026.02.05-14.51.32:992][904]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-14.51.36:251][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-14.51.36:251][ 94]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.51.36:251][ 94]LogWorld: UWorld::CleanupWorld for LvL_1, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-14.51.36:252][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-14.51.36:254][ 94]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.05-14.51.36:261][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-14.51.36:293][ 94]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.05-14.51.36:294][ 94]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.02.05-14.51.36:294][ 94]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2026.02.05-14.51.36:296][ 94]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2026.02.05-14.51.36:304][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-14.51.36:309][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2026.02.05-14.51.36:387][ 95]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2026.02.05-14.51.54:857][853]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.05-14.51.54:982][853]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/KillingMovingObject] ([2] browsable assets)...
+[2026.02.05-14.51.54:997][853]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/KillingMovingObject.KillingMovingObject]
+[2026.02.05-14.51.54:997][853]OBJ SavePackage: Finished generating thumbnails for package [/Game/KillingMovingObject]
+[2026.02.05-14.51.54:997][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KillingMovingObject" FILE="../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/KillingMovingObject.uasset" SILENT=true
+[2026.02.05-14.51.55:016][853]LogSavePackage: Moving output files for package: /Game/KillingMovingObject
+[2026.02.05-14.51.55:017][853]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/KillingMovingObject3D95F8CD41D3DDB1F4546285C6D98D56.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/KillingMovingObject.uasset'
+[2026.02.05-14.51.55:034][853]LogFileHelpers: InternalPromptForCheckoutAndSave took 177.029 ms (total: 3.58 sec)
+[2026.02.05-14.51.55:186][853]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.05-14.51.55:186][853]LogContentValidation: Enabled validators:
+[2026.02.05-14.51.55:186][853]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.05-14.51.55:186][853]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.05-14.51.55:186][853]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.05-14.51.55:186][853]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.05-14.51.55:186][853]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.05-14.51.55:186][853]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.05-14.51.55:186][853]AssetCheck: /Game/KillingMovingObject Validating asset
+[2026.02.05-14.51.57:555][961]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.05-14.51.57:565][961]LogPlayLevel: [PlayLevel] Compiling KillingMovingObject before play...
+[2026.02.05-14.51.57:657][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2026.02.05-14.51.57:661][961]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (1 blueprints)
+[2026.02.05-14.51.57:661][961]LogPlayLevel: Display: Creating online subsystem for client :Context_27
+[2026.02.05-14.51.57:663][961]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2026.02.05-14.51.57:697][962]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.51.57:709][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011212s)
+[2026.02.05-14.51.57:709][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/LvL_1.LvL_1 to /Game/FirstPerson/UEDPIE_0_LvL_1.LvL_1 (0.011296s)
+[2026.02.05-14.51.57:746][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2026.02.05-14.51.57:748][962]LogChaosDD: Creating Chaos Debug Draw Scene for world LvL_1
+[2026.02.05-14.51.57:750][962]LogPlayLevel: PIE: World Init took: (0.002342s)
+[2026.02.05-14.51.57:751][962]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2026.02.05-14.51.57:752][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.05-14.51.57:752][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.05-14.51.57:752][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.05-14.51.57:752][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.05-14.51.57:752][962]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.05-14.51.57:752][962]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.05-14.51.57:752][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.05-14.51.57:752][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.05-14.51.57:752][962]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.05-14.51.57:752][962]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.05-14.51.57:752][962]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.05-14.51.57:754][962]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.05-14.51.57:835][962]LogAudioMixer: Display: Using Audio Hardware Device Słuchawki (Realtek(R) Audio)
+[2026.02.05-14.51.57:835][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.05-14.51.57:835][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.05-14.51.57:835][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.05-14.51.57:836][962]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2026.02.05-14.51.57:836][962]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2026.02.05-14.51.57:839][962]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2026.02.05-14.51.57:839][962]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2026.02.05-14.51.57:839][962]LogInit: FAudioDevice initialized with ID 13.
+[2026.02.05-14.51.57:839][962]LogAudio: Display: Audio Device (ID: 13) registered with world 'LvL_1'.
+[2026.02.05-14.51.57:839][962]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2026.02.05-14.51.57:843][962]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.05-14.51.57:846][962]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_LvL_1.LvL_1 up for play (max tick rate 60) at 2026.02.05-15.51.57
+[2026.02.05-14.51.57:846][962]LogWorld: Bringing up level for play took: 0.002499
+[2026.02.05-14.51.57:855][962]PIE: Server logged in
+[2026.02.05-14.51.57:858][962]PIE: Play in editor total start time 0,295 seconds.
+[2026.02.05-14.51.57:932][963]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-14.52.02:362][225]Cmd: RestartLevel
+[2026.02.05-14.52.02:377][226]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/LvL_1?restart"
+[2026.02.05-14.52.02:378][226]LogNet: Browse: /Game/FirstPerson/LvL_1?restart
+[2026.02.05-14.52.02:378][226]LogLoad: LoadMap: /Game/FirstPerson/LvL_1
+[2026.02.05-14.52.02:378][226]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.52.02:380][226]LogWorld: UWorld::CleanupWorld for LvL_1, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-14.52.02:381][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-14.52.02:439][226]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.05-14.52.02:443][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.02.05-14.52.02:446][226]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.52.02:452][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005848s)
+[2026.02.05-14.52.02:452][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/LvL_1.LvL_1 to /Game/FirstPerson/UEDPIE_0_LvL_1.LvL_1 (0.005952s)
+[2026.02.05-14.52.02:452][226]LogAudio: Display: Audio Device (ID: 13) registered with world 'LvL_1'.
+[2026.02.05-14.52.02:452][226]LogChaosDD: Creating Chaos Debug Draw Scene for world LvL_1
+[2026.02.05-14.52.02:454][226]LogPlayLevel: PIE: World Init took: (0.002073s)
+[2026.02.05-14.52.02:454][226]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.05-14.52.02:456][226]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_LvL_1.LvL_1 up for play (max tick rate 60) at 2026.02.05-15.52.02
+[2026.02.05-14.52.02:456][226]LogWorld: Bringing up level for play took: 0.002311
+[2026.02.05-14.52.02:464][226]LogLoad: Took 0.086750 seconds to LoadMap(/Game/FirstPerson/UEDPIE_0_LvL_1)
+[2026.02.05-14.52.02:465][226]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.52.02:476][226]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.05-14.52.04:549][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-14.52.04:549][348]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_LvL_1
+[2026.02.05-14.52.04:550][348]LogWorld: UWorld::CleanupWorld for LvL_1, bSessionEnded=true, bCleanupResources=true
+[2026.02.05-14.52.04:550][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-14.52.04:552][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.05-14.52.04:560][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.05-14.52.04:595][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.05-14.52.04:595][348]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2026.02.05-14.52.04:595][348]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2026.02.05-14.52.04:598][348]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2026.02.05-14.52.04:614][348]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2026.02.05-14.52.04:691][349]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2026.02.05-14.52.13:187][475]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.05-14.52.13:449][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2026.02.05-14.52.13:480][475]LogSavePackage: Moving output files for package: /Game/FirstPerson/LvL_1
+[2026.02.05-14.52.13:481][475]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/LvL_1A8E574274ADC3AB596A383B6CFD6791E.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/FirstPerson/LvL_1.umap'
+[2026.02.05-14.52.13:501][475]LogFileHelpers: Saving map 'LvL_1' took 0.155
+[2026.02.05-14.52.13:523][475]LogFileHelpers: InternalPromptForCheckoutAndSave took 336.234 ms (total: 3.92 sec)
+[2026.02.05-14.52.13:637][475]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.05-14.52.13:637][475]LogContentValidation: Enabled validators:
+[2026.02.05-14.52.13:637][475]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.05-14.52.13:637][475]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.05-14.52.13:637][475]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.05-14.52.13:637][475]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.05-14.52.13:637][475]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.05-14.52.13:637][475]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.05-14.52.13:637][475]AssetCheck: /Game/FirstPerson/LvL_1 Validating asset
