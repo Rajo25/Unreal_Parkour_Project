@@ -3364,3 +3364,198 @@ If checked into revision control this would affect other developers.
 [2026.02.12-22.33.32:062][580]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14968.990234
 [2026.02.12-22.33.33:062][583]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.02.12-22.33.33:062][583]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14969.656250, Update Interval: 347.520996
+[2026.02.12-22.40.02:478][537]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15359.368164
+[2026.02.12-22.40.03:478][540]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.12-22.40.03:478][540]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15360.036133, Update Interval: 354.065369
+[2026.02.12-22.46.28:752][628]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15745.616211
+[2026.02.12-22.46.29:751][631]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.12-22.46.29:751][631]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15746.282227, Update Interval: 335.226898
+[2026.02.12-22.52.39:054][409]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16115.964844
+[2026.02.12-22.52.40:057][412]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.12-22.52.40:057][412]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16116.632812, Update Interval: 352.367920
+[2026.02.12-22.59.19:129][  4]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16516.070312
+[2026.02.12-22.59.20:131][  7]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.12-22.59.20:131][  7]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16516.736328, Update Interval: 322.258972
+[2026.02.12-23.00.10:328][192]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2026.02.12-23.00.14:762][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2026.02.12-23.00.15:327][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.12-23.00.15:360][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.02.12-23.00.15:431][519]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2026.02.12-23.00.15:431][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.02.12-23.00.15:456][519]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.02.12-23.00.15:457][519]LogSavePackage: Moving '../../../../../../Users/Rajo25/Desktop/Git Repo/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/BP_FirstPersonCharacterCA16BF9443A8E81473AFEC8BBFC5DD77.tmp' to '../../../../../../Users/Rajo25/Desktop/Git Repo/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.02.12-23.00.15:466][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 139.362 ms (total: 4.21 sec)
+[2026.02.12-23.00.15:525][519]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.12-23.00.15:525][519]LogContentValidation: Enabled validators:
+[2026.02.12-23.00.15:525][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.12-23.00.15:525][519]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.12-23.00.15:525][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.12-23.00.15:525][519]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.12-23.00.15:525][519]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.12-23.00.15:525][519]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.12-23.00.15:525][519]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2026.02.12-23.00.20:025][832]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.12-23.00.20:035][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.12-23.00.20:036][832]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelClimb
+[2026.02.12-23.00.20:043][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005430s)
+[2026.02.12-23.00.20:043][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelClimb.LevelClimb to /Game/UEDPIE_0_LevelClimb.LevelClimb (0.006373s)
+[2026.02.12-23.00.20:070][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2026.02.12-23.00.20:075][832]LogChaosDD: Creating Chaos Debug Draw Scene for world LevelClimb
+[2026.02.12-23.00.20:080][832]LogPlayLevel: PIE: World Init took: (0.005655s)
+[2026.02.12-23.00.20:082][832]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2026.02.12-23.00.20:082][832]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.12-23.00.20:082][832]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.12-23.00.20:082][832]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.12-23.00.20:082][832]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.12-23.00.20:082][832]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.12-23.00.20:082][832]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.12-23.00.20:082][832]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.12-23.00.20:082][832]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.12-23.00.20:083][832]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.12-23.00.20:083][832]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.12-23.00.20:083][832]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.12-23.00.20:086][832]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.12-23.00.20:120][832]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2026.02.12-23.00.20:123][832]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.12-23.00.20:123][832]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.12-23.00.20:123][832]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.12-23.00.20:124][832]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2026.02.12-23.00.20:124][832]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2026.02.12-23.00.20:125][832]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2026.02.12-23.00.20:125][832]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2026.02.12-23.00.20:125][832]LogInit: FAudioDevice initialized with ID 20.
+[2026.02.12-23.00.20:125][832]LogAudio: Display: Audio Device (ID: 20) registered with world 'LevelClimb'.
+[2026.02.12-23.00.20:126][832]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2026.02.12-23.00.20:151][832]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.12-23.00.20:153][832]LogWorld: Bringing World /Game/UEDPIE_0_LevelClimb.LevelClimb up for play (max tick rate 0) at 2026.02.13-00.00.20
+[2026.02.12-23.00.20:154][832]LogWorld: Bringing up level for play took: 0.002117
+[2026.02.12-23.00.20:158][832]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2026.02.12-23.00.20:171][832]PIE: Server logged in
+[2026.02.12-23.00.20:173][832]PIE: Play in editor total start time 0,139 seconds.
+[2026.02.12-23.00.26:401][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-23.00.26:401][468]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelClimb
+[2026.02.12-23.00.26:401][468]LogWorld: UWorld::CleanupWorld for LevelClimb, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-23.00.26:402][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-23.00.26:403][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.12-23.00.26:411][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-23.00.26:438][468]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.12-23.00.26:438][468]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2026.02.12-23.00.26:438][468]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=4
+[2026.02.12-23.00.26:440][468]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=2
+[2026.02.12-23.00.26:446][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-23.00.26:450][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2026.02.12-23.00.26:542][469]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2026.02.12-23.00.29:298][712]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2026.02.12-23.00.33:845][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.12-23.00.33:909][ 50]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_Default] ([1] browsable assets)...
+[2026.02.12-23.00.33:909][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_Default]
+[2026.02.12-23.00.33:909][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../../../Users/Rajo25/Desktop/Git Repo/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/Input/IMC_Default.uasset" SILENT=true
+[2026.02.12-23.00.33:920][ 50]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2026.02.12-23.00.33:920][ 50]LogSavePackage: Moving '../../../../../../Users/Rajo25/Desktop/Git Repo/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/IMC_DefaultEE7C45E147F639546C2962825A4EBB48.tmp' to '../../../../../../Users/Rajo25/Desktop/Git Repo/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/Input/IMC_Default.uasset'
+[2026.02.12-23.00.33:930][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.353 ms (total: 4.30 sec)
+[2026.02.12-23.00.33:991][ 50]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.12-23.00.33:991][ 50]LogContentValidation: Enabled validators:
+[2026.02.12-23.00.33:991][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.12-23.00.33:991][ 50]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.12-23.00.33:991][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.12-23.00.33:991][ 50]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.12-23.00.33:991][ 50]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.12-23.00.33:991][ 50]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.12-23.00.33:992][ 50]AssetCheck: /Game/Input/IMC_Default Validating asset
+[2026.02.12-23.00.44:304][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.02.12-23.00.55:594][925]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.12-23.00.55:613][925]LogAutomationController: Ignoring very large delta of 11.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.12-23.01.20:282][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.02.12-23.01.20:767][733]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.12-23.01.20:830][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.02.12-23.01.20:900][733]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2026.02.12-23.01.20:900][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.02.12-23.01.20:921][733]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.02.12-23.01.20:923][733]LogSavePackage: Moving '../../../../../../Users/Rajo25/Desktop/Git Repo/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/BP_FirstPersonCharacter3A16367E4CBDEFBAD155AAA2D08D29F9.tmp' to '../../../../../../Users/Rajo25/Desktop/Git Repo/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.02.12-23.01.20:931][733]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.789 ms (total: 4.46 sec)
+[2026.02.12-23.01.20:995][733]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.12-23.01.20:995][733]LogContentValidation: Enabled validators:
+[2026.02.12-23.01.20:995][733]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.12-23.01.20:995][733]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.12-23.01.20:995][733]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.12-23.01.20:995][733]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.12-23.01.20:995][733]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.12-23.01.20:995][733]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.12-23.01.20:995][733]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2026.02.12-23.01.22:414][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.12-23.01.22:464][860]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_Default] ([1] browsable assets)...
+[2026.02.12-23.01.22:464][860]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_Default]
+[2026.02.12-23.01.22:464][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../../../Users/Rajo25/Desktop/Git Repo/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/Input/IMC_Default.uasset" SILENT=true
+[2026.02.12-23.01.22:468][860]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2026.02.12-23.01.22:468][860]LogSavePackage: Moving '../../../../../../Users/Rajo25/Desktop/Git Repo/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/IMC_Default819B3F2247CD3E91CF543D9A88CD930B.tmp' to '../../../../../../Users/Rajo25/Desktop/Git Repo/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/Input/IMC_Default.uasset'
+[2026.02.12-23.01.22:477][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.058 ms (total: 4.52 sec)
+[2026.02.12-23.01.22:531][860]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.12-23.01.22:531][860]LogContentValidation: Enabled validators:
+[2026.02.12-23.01.22:531][860]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.12-23.01.22:531][860]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.12-23.01.22:531][860]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.12-23.01.22:531][860]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.12-23.01.22:531][860]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.12-23.01.22:531][860]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.12-23.01.22:531][860]AssetCheck: /Game/Input/IMC_Default Validating asset
+[2026.02.12-23.01.26:992][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2026.02.12-23.01.46:164][273]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.12-23.01.46:229][273]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Input/Actions/IA_Climb.IA_Climb
+	Asset Type: InputAction
+[2026.02.12-23.01.47:032][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2026.02.12-23.01.47:062][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2026.02.12-23.01.47:091][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2026.02.12-23.01.47:128][273]LogAutomationController: Ignoring very large delta of 20.17 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.12-23.01.57:048][685]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.12-23.01.57:055][685]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonCharacter before play...
+[2026.02.12-23.01.57:191][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2026.02.12-23.01.57:196][685]LogPlayLevel: PlayLevel: Blueprint regeneration took 141 ms (1 blueprints)
+[2026.02.12-23.01.57:230][685]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelClimb
+[2026.02.12-23.01.57:233][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002562s)
+[2026.02.12-23.01.57:233][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelClimb.LevelClimb to /Game/UEDPIE_0_LevelClimb.LevelClimb (0.002605s)
+[2026.02.12-23.01.57:260][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2026.02.12-23.01.57:262][685]LogChaosDD: Creating Chaos Debug Draw Scene for world LevelClimb
+[2026.02.12-23.01.57:265][685]LogPlayLevel: PIE: World Init took: (0.002471s)
+[2026.02.12-23.01.57:266][685]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2026.02.12-23.01.57:266][685]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.12-23.01.57:266][685]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.12-23.01.57:266][685]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.12-23.01.57:266][685]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.12-23.01.57:266][685]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.12-23.01.57:266][685]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.12-23.01.57:266][685]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.12-23.01.57:266][685]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.12-23.01.57:266][685]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.12-23.01.57:266][685]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.12-23.01.57:266][685]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.12-23.01.57:269][685]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.12-23.01.57:300][685]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2026.02.12-23.01.57:300][685]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.12-23.01.57:300][685]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.12-23.01.57:300][685]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.12-23.01.57:300][685]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2026.02.12-23.01.57:300][685]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2026.02.12-23.01.57:303][685]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2026.02.12-23.01.57:303][685]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2026.02.12-23.01.57:303][685]LogInit: FAudioDevice initialized with ID 21.
+[2026.02.12-23.01.57:303][685]LogAudio: Display: Audio Device (ID: 21) registered with world 'LevelClimb'.
+[2026.02.12-23.01.57:303][685]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2026.02.12-23.01.57:307][685]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.12-23.01.57:308][685]LogWorld: Bringing World /Game/UEDPIE_0_LevelClimb.LevelClimb up for play (max tick rate 0) at 2026.02.13-00.01.57
+[2026.02.12-23.01.57:309][685]LogWorld: Bringing up level for play took: 0.000835
+[2026.02.12-23.01.57:311][685]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2026.02.12-23.01.57:318][685]PIE: Server logged in
+[2026.02.12-23.01.57:321][685]PIE: Play in editor total start time 0,267 seconds.
+[2026.02.12-23.02.01:511][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-23.02.01:511][ 79]LogWorld: BeginTearingDown for /Game/UEDPIE_0_LevelClimb
+[2026.02.12-23.02.01:511][ 79]LogWorld: UWorld::CleanupWorld for LevelClimb, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-23.02.01:511][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-23.02.01:513][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.12-23.02.01:520][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-23.02.01:545][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-23.02.01:545][ 79]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2026.02.12-23.02.01:545][ 79]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=4
+[2026.02.12-23.02.01:547][ 79]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=2
+[2026.02.12-23.02.01:555][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2026.02.12-23.02.01:646][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_32
