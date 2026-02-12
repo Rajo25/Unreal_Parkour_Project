@@ -1388,3 +1388,134 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.12-18.29.27:882][210]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.02.12-18.29.27:882][210]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Weryfikowanie zasobu
 [2026.02.12-18.29.27:905][210]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.12-18.29.59:341][793]Cmd: TRANSACTION UNDO
+[2026.02.12-18.29.59:341][793]LogEditorTransaction: Undo Kliknięcie aktorów
+[2026.02.12-18.29.59:660][808]Cmd: TRANSACTION UNDO
+[2026.02.12-18.29.59:660][808]LogEditorTransaction: Undo Przenieś elementy
+[2026.02.12-18.30.34:125][882]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.12-18.30.35:365][ 29]LogDebuggerCommands: Repeating last play command: Wybrane okno wizualizacji
+[2026.02.12-18.30.35:368][ 29]LogContentBundle: [Lvl_FirstPerson(Edytor)] Generating Streaming for 0 Content Bundles.
+[2026.02.12-18.30.35:368][ 29]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2026.02.12-18.30.35:368][ 29]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 589 us
+[2026.02.12-18.30.35:368][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.12-18.30.35:372][ 29]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.02.12-18.30.35:372][ 29]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.02.12-18.30.35:372][ 29]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.02.12-18.30.35:374][ 29]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.12-18.30.35:374][ 29]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 432 us
+[2026.02.12-18.30.35:374][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002668s)
+[2026.02.12-18.30.35:374][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.002703s)
+[2026.02.12-18.30.35:410][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.02.12-18.30.35:412][ 29]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2026.02.12-18.30.35:413][ 29]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.12-18.30.35:413][ 29]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.12-18.30.35:413][ 29]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.12-18.30.35:413][ 29]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.12-18.30.35:413][ 29]LogWorldPartition: Display: WorldPartition initialize took 647 us (total: 27.876 ms)
+[2026.02.12-18.30.35:413][ 29]LogPlayLevel: PIE: World Init took: (0.001843s)
+[2026.02.12-18.30.35:414][ 29]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.02.12-18.30.35:414][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.12-18.30.35:414][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.12-18.30.35:414][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.12-18.30.35:414][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.12-18.30.35:414][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.12-18.30.35:414][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.12-18.30.35:414][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.12-18.30.35:414][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.12-18.30.35:414][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.12-18.30.35:414][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.12-18.30.35:414][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.12-18.30.35:415][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.12-18.30.35:429][ 29]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (SteelSeries Arctis 9X Headset)
+[2026.02.12-18.30.35:429][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.12-18.30.35:429][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.12-18.30.35:429][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.12-18.30.35:429][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.02.12-18.30.35:429][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.02.12-18.30.35:431][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.02.12-18.30.35:431][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.02.12-18.30.35:431][ 29]LogInit: FAudioDevice initialized with ID 2.
+[2026.02.12-18.30.35:431][ 29]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_FirstPerson'.
+[2026.02.12-18.30.35:431][ 29]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.02.12-18.30.35:434][ 29]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.12-18.30.35:435][ 29]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2026.02.12-19.30.35
+[2026.02.12-18.30.35:435][ 29]LogWorld: Bringing up level for play took: 0.001085
+[2026.02.12-18.30.35:436][ 29]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2026.02.12-18.30.35:442][ 29]PIE: Serwer zalogowany
+[2026.02.12-18.30.35:443][ 29]PIE: Łączny czas uruchamiania trybu Graj w edytorze: 0,076 s
+[2026.02.12-18.30.35:488][ 30]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.12-18.30.42:067][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-18.30.42:067][798]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.02.12-18.30.42:068][798]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2026.02.12-18.30.42:068][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-18.30.42:068][798]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2026.02.12-18.30.42:070][798]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.12-18.30.42:071][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.12-18.30.42:082][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.12-18.30.42:082][798]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.02.12-18.30.42:083][798]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.02.12-18.30.42:085][798]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.02.12-18.30.42:091][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2026.02.12-18.30.42:157][800]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2026.02.12-18.30.42:907][890]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.12-18.30.42:937][890]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/CC/0JTUNI8VQLSXUN7CSUXHGJ
+[2026.02.12-18.30.42:937][890]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/0JTUNI8VQLSXUN7CSUXHGJ1B81A543494315163A6690B0EC4A6315.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/CC/0JTUNI8VQLSXUN7CSUXHGJ.uasset'
+[2026.02.12-18.30.42:944][890]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/EG/CIZR6W2NYH4Y5P8G67XOU0
+[2026.02.12-18.30.42:945][890]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/CIZR6W2NYH4Y5P8G67XOU097B7C5BA48AEFF5F1EA040B5C062A10E.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/EG/CIZR6W2NYH4Y5P8G67XOU0.uasset'
+[2026.02.12-18.30.42:950][890]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/96/JEF6NHSL8XXSCQTOUZMFM6
+[2026.02.12-18.30.42:950][890]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/JEF6NHSL8XXSCQTOUZMFM6E2BAA1B14F13B951332A5CA93B83F672.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/96/JEF6NHSL8XXSCQTOUZMFM6.uasset'
+[2026.02.12-18.30.42:956][890]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/QY/FSMNL3KLM133J5VKZAU0BE
+[2026.02.12-18.30.42:957][890]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/FSMNL3KLM133J5VKZAU0BE20B7320F42C68CEBE088DDA9FD0A283D.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/QY/FSMNL3KLM133J5VKZAU0BE.uasset'
+[2026.02.12-18.30.42:962][890]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/BL/WB7S47W2IE4F23EZ9SLQ1B
+[2026.02.12-18.30.42:963][890]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/WB7S47W2IE4F23EZ9SLQ1BB3F369904BF2E9C5AF18CBA178ACE22E.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/BL/WB7S47W2IE4F23EZ9SLQ1B.uasset'
+[2026.02.12-18.30.42:969][890]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/UU/1ZY1QFVHRWZSP8YI4VZLMK
+[2026.02.12-18.30.42:970][890]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/1ZY1QFVHRWZSP8YI4VZLMK3E1C12CB4A8856F0F2025C81199B793F.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/UU/1ZY1QFVHRWZSP8YI4VZLMK.uasset'
+[2026.02.12-18.30.42:975][890]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/C7/LHEOZ28EA00LZG55QEAGFH
+[2026.02.12-18.30.42:975][890]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/LHEOZ28EA00LZG55QEAGFH2FB5BA204BDB7B24EFAE38B202DF7601.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/C7/LHEOZ28EA00LZG55QEAGFH.uasset'
+[2026.02.12-18.30.42:982][890]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.068 ms (total: 268.942 ms)
+[2026.02.12-18.30.43:007][890]LogContentValidation: Display: Starting to validate 7 assets
+[2026.02.12-18.30.43:007][890]LogContentValidation: Enabled validators:
+[2026.02.12-18.30.43:007][890]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.12-18.30.43:007][890]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.12-18.30.43:007][890]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.12-18.30.43:007][890]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.12-18.30.43:007][890]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.12-18.30.43:007][890]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.12-18.30.43:008][890]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Weryfikowanie zasobu
+[2026.02.12-18.30.43:017][890]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.12-18.33.14:807][507]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 349.683319
+[2026.02.12-18.33.15:807][510]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.12-18.33.15:807][510]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 350.349976, Update Interval: 307.639404
+[2026.02.12-18.38.25:511][439]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 660.386169
+[2026.02.12-18.38.26:510][442]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.12-18.38.26:510][442]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 661.050842, Update Interval: 316.370117
+[2026.02.12-18.43.48:209][407]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 983.084717
+[2026.02.12-18.43.49:209][410]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.12-18.43.49:209][410]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 983.751099, Update Interval: 304.909210
+[2026.02.12-18.49.03:912][354]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1298.788818
+[2026.02.12-18.49.04:913][357]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.12-18.49.04:913][357]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1299.455688, Update Interval: 319.761353
+[2026.02.12-18.54.50:951][395]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1645.829468
+[2026.02.12-18.54.51:951][398]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.12-18.54.51:951][399]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1646.496338, Update Interval: 330.597870
+[2026.02.12-18.56.56:325][772]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=ASUS VG24VQ1B (NVIDIA High Definition Audio), InstanceID=1
+[2026.02.12-18.56.56:325][772]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{852eaa00-4eb2-4901-85c4-4e5333da7907}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.12-18.56.56:328][772]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=ASUS VG24VQ1B (NVIDIA High Definition Audio), InstanceID=1
+[2026.02.12-18.56.56:328][772]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.12-18.56.56:328][772]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{852eaa00-4eb2-4901-85c4-4e5333da7907}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.12-18.56.56:482][772]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=ASUS VG24VQ1B (NVIDIA High Definition Audio), InstanceID=1
+[2026.02.12-18.56.56:482][772]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.12-18.56.56:482][772]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{852eaa00-4eb2-4901-85c4-4e5333da7907}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.12-18.56.56:485][772]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=ASUS VG24VQ1B (NVIDIA High Definition Audio), InstanceID=1
+[2026.02.12-18.56.56:485][772]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.02.12-18.56.56:485][772]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{852eaa00-4eb2-4901-85c4-4e5333da7907}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.02.12-18.56.56:633][772]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{852eaa00-4eb2-4901-85c4-4e5333da7907}]
+[2026.02.12-18.56.56:633][772]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.02.12-18.56.56:633][772]LogAudioMixer: Warning: FMixerPlatformXAudio2::OnCriticalError: 0x88880001: UNKNOWN
+[2026.02.12-18.56.56:634][772]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.02.12-18.56.56:966][773]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{852eaa00-4eb2-4901-85c4-4e5333da7907}, Name=ASUS VG24VQ1B (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=9.78
+[2026.02.12-18.56.56:966][773]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.02.12-18.56.56:966][773]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.12-18.56.56:968][773]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
