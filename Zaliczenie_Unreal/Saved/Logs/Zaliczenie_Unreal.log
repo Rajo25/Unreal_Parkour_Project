@@ -4373,3 +4373,27 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.13-21.31.12:216][762]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.02.13-21.31.12:216][762]AssetCheck: /Game/Level/Lvl_Finale Weryfikowanie zasobu
 [2026.02.13-21.31.12:236][762]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.13-21.31.32:428][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.13-21.31.32:470][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.02.13-21.31.32:486][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2026.02.13-21.31.32:503][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.02.13-21.31.32:517][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.628 ms (total: 373.402 ms)
+[2026.02.13-21.31.37:124][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.13-21.31.37:170][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.02.13-21.31.37:190][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.02.13-21.31.37:207][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.02.13-21.31.37:221][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.663 ms (total: 470.066 ms)
+[2026.02.13-21.31.37:325][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.02.13-21.31.37:326][329]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Lvl_Finale' took 0.016
+[2026.02.13-21.31.37:326][329]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/NextLvl] ([2] browsable assets)...
+[2026.02.13-21.31.37:326][329]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.02.13-21.31.37:357][329]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/NextLvl.NextLvl]
+[2026.02.13-21.31.37:357][329]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/NextLvl]
+[2026.02.13-21.31.37:368][329]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrints/NextLvl_Auto1
+[2026.02.13-21.31.37:368][329]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/NextLvl_Auto1925AFE2040C3CCE0CD54CCB762FCB16E.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/Autosaves/Game/BluePrints/NextLvl_Auto1.uasset'
+[2026.02.13-21.31.37:368][329]LogFileHelpers: Auto-saving content packages took 0.043
+[2026.02.13-21.31.37:848][383]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.13-21.31.37:885][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2026.02.13-21.31.37:902][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2026.02.13-21.31.37:919][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.02.13-21.31.37:928][383]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.583 ms (total: 549.649 ms)
