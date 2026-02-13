@@ -4397,3 +4397,35 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.13-21.31.37:902][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
 [2026.02.13-21.31.37:919][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
 [2026.02.13-21.31.37:928][383]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.583 ms (total: 549.649 ms)
+[2026.02.13-21.32.44:888][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.13-21.32.44:937][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2026.02.13-21.32.44:956][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.02.13-21.32.44:974][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.02.13-21.32.44:983][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/4/VZ/HULIAZSUK2W2CX7X3YZ7S5
+[2026.02.13-21.32.44:983][442]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/HULIAZSUK2W2CX7X3YZ7S5ACA3D8304DB04D2FEF81C1BD00F46903.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/4/VZ/HULIAZSUK2W2CX7X3YZ7S5.uasset'
+[2026.02.13-21.32.44:989][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/B/GY/Y8LUORZHP975V2O0E7MX8L
+[2026.02.13-21.32.44:989][442]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/Y8LUORZHP975V2O0E7MX8L7FDF6F2B490165EEDEA3CC892309F24B.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/B/GY/Y8LUORZHP975V2O0E7MX8L.uasset'
+[2026.02.13-21.32.44:996][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/2/3G/6Q2B97ZIUE1BN014DXQ6SP
+[2026.02.13-21.32.44:996][442]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/6Q2B97ZIUE1BN014DXQ6SPAB9D8BC5497D58DD9F080A94EEBFB5BB.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/2/3G/6Q2B97ZIUE1BN014DXQ6SP.uasset'
+[2026.02.13-21.32.45:001][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/A/61/GZAKNAE22SJU00K7VAW1VX
+[2026.02.13-21.32.45:001][442]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/GZAKNAE22SJU00K7VAW1VX3D2E7A724802467EEFFF7BA37DFC96D0.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/A/61/GZAKNAE22SJU00K7VAW1VX.uasset'
+[2026.02.13-21.32.45:006][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/5/MR/PM46E9ZRED6U68Y0T1H87G
+[2026.02.13-21.32.45:007][442]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/PM46E9ZRED6U68Y0T1H87G8879D2DC45412ED3CA99AC9D7EBF4A6B.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/5/MR/PM46E9ZRED6U68Y0T1H87G.uasset'
+[2026.02.13-21.32.45:012][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/3/VJ/ZSGM5RZ5HQO5ILY8Z3283N
+[2026.02.13-21.32.45:013][442]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/ZSGM5RZ5HQO5ILY8Z3283N58FD6A6F4FE772923D313BB6AC590C94.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/3/VJ/ZSGM5RZ5HQO5ILY8Z3283N.uasset'
+[2026.02.13-21.32.45:018][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/F/1U/ZQZY1OEOPZW41SUHO08X8X
+[2026.02.13-21.32.45:018][442]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/ZQZY1OEOPZW41SUHO08X8X509F5A154865D1BBAF00AF9E4327301C.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/F/1U/ZQZY1OEOPZW41SUHO08X8X.uasset'
+[2026.02.13-21.32.45:022][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/B/AF/I09LQ8SYRQX2IFO5O8WGYF
+[2026.02.13-21.32.45:023][442]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/I09LQ8SYRQX2IFO5O8WGYF24672F964508309CF07276897C1F5805.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/B/AF/I09LQ8SYRQX2IFO5O8WGYF.uasset'
+[2026.02.13-21.32.45:028][442]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/6/B4/HF1V8XBENN1KQ9N1OCRIUT
+[2026.02.13-21.32.45:028][442]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/HF1V8XBENN1KQ9N1OCRIUTC2F93B6D4DAFC4B35FC2C0BBE1D15D8A.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/6/B4/HF1V8XBENN1KQ9N1OCRIUT.uasset'
+[2026.02.13-21.32.45:039][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 151.163 ms (total: 700.813 ms)
+[2026.02.13-21.32.45:064][442]LogContentValidation: Display: Starting to validate 9 assets
+[2026.02.13-21.32.45:064][442]LogContentValidation: Enabled validators:
+[2026.02.13-21.32.45:064][442]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.13-21.32.45:064][442]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.13-21.32.45:064][442]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.13-21.32.45:064][442]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.13-21.32.45:064][442]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.13-21.32.45:064][442]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.13-21.32.45:064][442]AssetCheck: /Game/Level/Lvl_Finale Weryfikowanie zasobu
