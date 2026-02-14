@@ -3421,3 +3421,8 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.14-13.51.38:689][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
 [2026.02.14-13.51.38:701][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
 [2026.02.14-13.51.38:706][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.826 ms (total: 455.198 ms)
+[2026.02.14-13.51.49:633][379]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.14-13.51.49:672][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2026.02.14-13.51.49:684][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2026.02.14-13.51.49:696][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2026.02.14-13.51.49:703][379]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.777 ms (total: 524.975 ms)
