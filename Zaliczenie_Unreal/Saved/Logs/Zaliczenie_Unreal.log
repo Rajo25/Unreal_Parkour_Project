@@ -9829,3 +9829,1228 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2026.02.14-12.49.30:327][752]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
 [2026.02.14-12.49.30:342][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
 [2026.02.14-12.49.30:383][753]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2026.02.14-12.51.05:491][343]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-12.51.05:500][343]LogContentBundle: [Lvl_Finale(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.14-12.51.05:500][343]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Finale' started...
+[2026.02.14-12.51.05:501][343]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Finale' took 1.077 ms (total: 3.42 sec)
+[2026.02.14-12.51.05:502][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-12.51.05:502][343]LogPlayLevel: Display: Creating online subsystem for client :Context_30
+[2026.02.14-12.51.05:504][343]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2026.02.14-12.51.05:519][344]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.05:533][344]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.05:537][344]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.394 ms (total: 163.827 ms)
+[2026.02.14-12.51.05:537][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017205s)
+[2026.02.14-12.51.05:537][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.017266s)
+[2026.02.14-12.51.05:571][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.02.14-12.51.05:573][344]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.05:575][344]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.05:575][344]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.05:575][344]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.05:575][344]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.05:578][344]LogWorldPartition: Display: WorldPartition initialize took 3.388 ms (total: 13.0 sec)
+[2026.02.14-12.51.05:578][344]LogPlayLevel: PIE: World Init took: (0.005731s)
+[2026.02.14-12.51.05:579][344]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2026.02.14-12.51.05:580][344]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-12.51.05:580][344]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-12.51.05:580][344]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-12.51.05:580][344]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-12.51.05:580][344]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-12.51.05:580][344]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-12.51.05:580][344]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-12.51.05:580][344]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-12.51.05:580][344]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-12.51.05:580][344]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-12.51.05:580][344]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-12.51.05:582][344]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-12.51.05:656][344]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2026.02.14-12.51.05:656][344]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-12.51.05:656][344]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-12.51.05:656][344]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-12.51.05:657][344]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2026.02.14-12.51.05:657][344]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2026.02.14-12.51.05:659][344]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2026.02.14-12.51.05:659][344]LogInit: FAudioDevice initialized with ID 14.
+[2026.02.14-12.51.05:659][344]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2026.02.14-12.51.05:660][344]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.05:660][344]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2026.02.14-12.51.05:664][344]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.05:669][344]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.05
+[2026.02.14-12.51.05:669][344]LogWorld: Bringing up level for play took: 0.005125
+[2026.02.14-12.51.05:679][344]PIE: Server logged in
+[2026.02.14-12.51.05:681][344]PIE: Play in editor total start time 0,181 seconds.
+[2026.02.14-12.51.05:875][345]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.05:980][346]Cmd: RestartLevel
+[2026.02.14-12.51.05:980][346]Cmd: RestartLevel
+[2026.02.14-12.51.05:980][346]Cmd: RestartLevel
+[2026.02.14-12.51.05:980][346]Cmd: RestartLevel
+[2026.02.14-12.51.05:980][346]Cmd: RestartLevel
+[2026.02.14-12.51.06:028][347]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.06:028][347]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.06:028][347]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.06:028][347]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.06:029][347]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.06:031][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.06:031][347]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.06:069][347]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.06:074][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.02.14-12.51.06:075][347]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.06:089][347]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.06:092][347]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.088 ms (total: 166.916 ms)
+[2026.02.14-12.51.06:092][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016155s)
+[2026.02.14-12.51.06:092][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016221s)
+[2026.02.14-12.51.06:092][347]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.06:092][347]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.06:094][347]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.06:094][347]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.06:094][347]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.06:094][347]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.06:098][347]LogWorldPartition: Display: WorldPartition initialize took 3.336 ms (total: 13.0 sec)
+[2026.02.14-12.51.06:098][347]LogPlayLevel: PIE: World Init took: (0.005575s)
+[2026.02.14-12.51.06:098][347]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.06:103][347]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.06
+[2026.02.14-12.51.06:103][347]LogWorld: Bringing up level for play took: 0.005122
+[2026.02.14-12.51.06:111][347]LogLoad: Took 0.083155 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.06:111][347]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.06:121][347]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.07:743][424]Cmd: RestartLevel
+[2026.02.14-12.51.07:744][424]Cmd: RestartLevel
+[2026.02.14-12.51.07:744][424]Cmd: RestartLevel
+[2026.02.14-12.51.07:744][424]Cmd: RestartLevel
+[2026.02.14-12.51.07:744][424]Cmd: RestartLevel
+[2026.02.14-12.51.07:744][424]Cmd: RestartLevel
+[2026.02.14-12.51.08:076][425]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.08:076][425]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.08:076][425]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.08:076][425]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:077][425]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.08:078][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.08:079][425]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.08:111][425]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.08:115][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2026.02.14-12.51.08:117][425]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:131][425]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.08:134][425]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.976 ms (total: 169.893 ms)
+[2026.02.14-12.51.08:134][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016261s)
+[2026.02.14-12.51.08:134][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016325s)
+[2026.02.14-12.51.08:134][425]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.08:134][425]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.08:136][425]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.08:136][425]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.08:136][425]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.08:136][425]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.08:140][425]LogWorldPartition: Display: WorldPartition initialize took 3.305 ms (total: 13.0 sec)
+[2026.02.14-12.51.08:140][425]LogPlayLevel: PIE: World Init took: (0.005412s)
+[2026.02.14-12.51.08:140][425]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.08:145][425]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 3) at 2026.02.14-13.51.08
+[2026.02.14-12.51.08:145][425]LogWorld: Bringing up level for play took: 0.005177
+[2026.02.14-12.51.08:153][425]LogLoad: Took 0.077212 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.08:153][425]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:158][425]Cmd: RestartLevel
+[2026.02.14-12.51.08:158][425]Cmd: RestartLevel
+[2026.02.14-12.51.08:158][425]Cmd: RestartLevel
+[2026.02.14-12.51.08:158][425]Cmd: RestartLevel
+[2026.02.14-12.51.08:158][425]Cmd: RestartLevel
+[2026.02.14-12.51.08:164][425]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.08:410][426]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.08:410][426]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.08:410][426]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.08:410][426]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:411][426]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.08:412][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.08:412][426]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.08:445][426]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.08:449][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.02.14-12.51.08:451][426]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:464][426]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.08:467][426]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.999 ms (total: 172.892 ms)
+[2026.02.14-12.51.08:467][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015726s)
+[2026.02.14-12.51.08:467][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.015790s)
+[2026.02.14-12.51.08:467][426]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.08:467][426]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.08:469][426]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.08:469][426]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.08:469][426]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.08:469][426]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.08:472][426]LogWorldPartition: Display: WorldPartition initialize took 3.483 ms (total: 13.0 sec)
+[2026.02.14-12.51.08:472][426]LogPlayLevel: PIE: World Init took: (0.005515s)
+[2026.02.14-12.51.08:472][426]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.08:478][426]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 3) at 2026.02.14-13.51.08
+[2026.02.14-12.51.08:478][426]LogWorld: Bringing up level for play took: 0.005015
+[2026.02.14-12.51.08:485][426]LogLoad: Took 0.074679 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.08:485][426]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:490][426]Cmd: RestartLevel
+[2026.02.14-12.51.08:490][426]Cmd: RestartLevel
+[2026.02.14-12.51.08:490][426]Cmd: RestartLevel
+[2026.02.14-12.51.08:491][426]Cmd: RestartLevel
+[2026.02.14-12.51.08:491][426]Cmd: RestartLevel
+[2026.02.14-12.51.08:497][426]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.08:811][427]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.08:811][427]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.08:811][427]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.08:811][427]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:812][427]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.08:813][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.08:813][427]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.08:873][427]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.08:876][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.02.14-12.51.08:879][427]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:892][427]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.08:895][427]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.963 ms (total: 175.856 ms)
+[2026.02.14-12.51.08:895][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016156s)
+[2026.02.14-12.51.08:895][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016209s)
+[2026.02.14-12.51.08:895][427]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.08:895][427]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.08:897][427]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.08:897][427]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.08:897][427]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.08:897][427]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.08:901][427]LogWorldPartition: Display: WorldPartition initialize took 3.378 ms (total: 13.0 sec)
+[2026.02.14-12.51.08:901][427]LogPlayLevel: PIE: World Init took: (0.005473s)
+[2026.02.14-12.51.08:901][427]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.08:906][427]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.08
+[2026.02.14-12.51.08:907][427]LogWorld: Bringing up level for play took: 0.005377
+[2026.02.14-12.51.08:914][427]LogLoad: Took 0.104233 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.08:914][427]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:919][427]Cmd: RestartLevel
+[2026.02.14-12.51.08:919][427]Cmd: RestartLevel
+[2026.02.14-12.51.08:919][427]Cmd: RestartLevel
+[2026.02.14-12.51.08:919][427]Cmd: RestartLevel
+[2026.02.14-12.51.08:919][427]Cmd: RestartLevel
+[2026.02.14-12.51.08:934][428]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.08:934][428]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.08:934][428]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.08:934][428]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:935][428]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.08:937][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.08:937][428]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.08:947][428]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.08:981][428]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.08:985][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.02.14-12.51.08:987][428]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.08:999][428]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.09:002][428]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.031 ms (total: 178.888 ms)
+[2026.02.14-12.51.09:002][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016056s)
+[2026.02.14-12.51.09:002][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016139s)
+[2026.02.14-12.51.09:002][428]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.09:002][428]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.09:005][428]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.09:005][428]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.09:005][428]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.09:005][428]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.09:008][428]LogWorldPartition: Display: WorldPartition initialize took 3.558 ms (total: 13.0 sec)
+[2026.02.14-12.51.09:008][428]LogPlayLevel: PIE: World Init took: (0.005858s)
+[2026.02.14-12.51.09:008][428]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.09:014][428]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.09
+[2026.02.14-12.51.09:014][428]LogWorld: Bringing up level for play took: 0.005328
+[2026.02.14-12.51.09:022][428]LogLoad: Took 0.088177 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.09:022][428]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.09:044][429]Cmd: RestartLevel
+[2026.02.14-12.51.09:044][429]Cmd: RestartLevel
+[2026.02.14-12.51.09:044][429]Cmd: RestartLevel
+[2026.02.14-12.51.09:044][429]Cmd: RestartLevel
+[2026.02.14-12.51.09:044][429]Cmd: RestartLevel
+[2026.02.14-12.51.09:055][429]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.09:066][430]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.09:066][430]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.09:066][430]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.09:066][430]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.09:068][430]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.09:069][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.09:070][430]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.09:113][430]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.09:122][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.02.14-12.51.09:124][430]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.09:140][430]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.09:145][430]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.810 ms (total: 183.698 ms)
+[2026.02.14-12.51.09:145][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020786s)
+[2026.02.14-12.51.09:145][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.020848s)
+[2026.02.14-12.51.09:145][430]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.09:145][430]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.09:148][430]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.09:148][430]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.09:148][430]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.09:148][430]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.09:153][430]LogWorldPartition: Display: WorldPartition initialize took 5.031 ms (total: 13.0 sec)
+[2026.02.14-12.51.09:153][430]LogPlayLevel: PIE: World Init took: (0.008130s)
+[2026.02.14-12.51.09:153][430]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.09:158][430]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.09
+[2026.02.14-12.51.09:159][430]LogWorld: Bringing up level for play took: 0.005171
+[2026.02.14-12.51.09:166][430]LogLoad: Took 0.099959 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.09:166][430]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.09:179][430]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.10:526][466]Cmd: RestartLevel
+[2026.02.14-12.51.10:526][466]Cmd: RestartLevel
+[2026.02.14-12.51.10:526][466]Cmd: RestartLevel
+[2026.02.14-12.51.10:526][466]Cmd: RestartLevel
+[2026.02.14-12.51.10:526][466]Cmd: RestartLevel
+[2026.02.14-12.51.10:526][466]Cmd: RestartLevel
+[2026.02.14-12.51.10:526][466]Cmd: RestartLevel
+[2026.02.14-12.51.10:540][467]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.10:540][467]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.10:540][467]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.10:540][467]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.10:541][467]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.10:543][467]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.10:543][467]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.10:599][467]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.10:603][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2026.02.14-12.51.10:606][467]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.10:618][467]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.10:621][467]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.008 ms (total: 186.707 ms)
+[2026.02.14-12.51.10:621][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015603s)
+[2026.02.14-12.51.10:621][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.015660s)
+[2026.02.14-12.51.10:621][467]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.10:621][467]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.10:624][467]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.10:624][467]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.10:624][467]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.10:624][467]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.10:627][467]LogWorldPartition: Display: WorldPartition initialize took 3.317 ms (total: 13.0 sec)
+[2026.02.14-12.51.10:627][467]LogPlayLevel: PIE: World Init took: (0.005816s)
+[2026.02.14-12.51.10:627][467]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.10:632][467]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.10
+[2026.02.14-12.51.10:633][467]LogWorld: Bringing up level for play took: 0.005034
+[2026.02.14-12.51.10:641][467]LogLoad: Took 0.101002 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.10:641][467]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.10:651][467]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.13:668][603]Cmd: RestartLevel
+[2026.02.14-12.51.13:668][603]Cmd: RestartLevel
+[2026.02.14-12.51.13:668][603]Cmd: RestartLevel
+[2026.02.14-12.51.13:668][603]Cmd: RestartLevel
+[2026.02.14-12.51.13:668][603]Cmd: RestartLevel
+[2026.02.14-12.51.13:683][604]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.13:683][604]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.13:683][604]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.13:683][604]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.13:684][604]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.13:686][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.13:686][604]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.13:757][604]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.13:762][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2026.02.14-12.51.13:764][604]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.13:778][604]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.13:781][604]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.107 ms (total: 189.814 ms)
+[2026.02.14-12.51.13:781][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016221s)
+[2026.02.14-12.51.13:781][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016296s)
+[2026.02.14-12.51.13:781][604]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.13:781][604]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.13:783][604]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.13:783][604]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.13:783][604]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.13:783][604]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.13:786][604]LogWorldPartition: Display: WorldPartition initialize took 3.360 ms (total: 13.0 sec)
+[2026.02.14-12.51.13:786][604]LogPlayLevel: PIE: World Init took: (0.005447s)
+[2026.02.14-12.51.13:786][604]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.13:791][604]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.13
+[2026.02.14-12.51.13:791][604]LogWorld: Bringing up level for play took: 0.005008
+[2026.02.14-12.51.13:799][604]LogLoad: Took 0.116480 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.13:799][604]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.13:810][604]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.13:894][609]Cmd: RestartLevel
+[2026.02.14-12.51.13:894][609]Cmd: RestartLevel
+[2026.02.14-12.51.13:894][609]Cmd: RestartLevel
+[2026.02.14-12.51.13:894][609]Cmd: RestartLevel
+[2026.02.14-12.51.13:894][609]Cmd: RestartLevel
+[2026.02.14-12.51.13:908][610]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.13:908][610]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.13:908][610]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.13:908][610]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.13:910][610]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.13:911][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.13:911][610]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.13:975][610]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.13:980][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2026.02.14-12.51.13:982][610]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.13:995][610]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.13:998][610]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.154 ms (total: 192.969 ms)
+[2026.02.14-12.51.13:998][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016583s)
+[2026.02.14-12.51.13:998][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016646s)
+[2026.02.14-12.51.13:998][610]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.13:998][610]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.14:001][610]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.14:001][610]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.14:001][610]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.14:001][610]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.14:004][610]LogWorldPartition: Display: WorldPartition initialize took 3.503 ms (total: 13.0 sec)
+[2026.02.14-12.51.14:004][610]LogPlayLevel: PIE: World Init took: (0.005768s)
+[2026.02.14-12.51.14:004][610]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.14:010][610]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.14
+[2026.02.14-12.51.14:010][610]LogWorld: Bringing up level for play took: 0.005494
+[2026.02.14-12.51.14:019][610]LogLoad: Took 0.110139 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.14:019][610]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.14:030][610]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.14:127][616]Cmd: RestartLevel
+[2026.02.14-12.51.14:127][616]Cmd: RestartLevel
+[2026.02.14-12.51.14:127][616]Cmd: RestartLevel
+[2026.02.14-12.51.14:127][616]Cmd: RestartLevel
+[2026.02.14-12.51.14:127][616]Cmd: RestartLevel
+[2026.02.14-12.51.14:141][617]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.14:141][617]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.14:141][617]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.14:141][617]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.14:143][617]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.14:144][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.14:144][617]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.14:208][617]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.14:211][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.02.14-12.51.14:213][617]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.14:227][617]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.14:230][617]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.096 ms (total: 196.065 ms)
+[2026.02.14-12.51.14:230][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016659s)
+[2026.02.14-12.51.14:230][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016735s)
+[2026.02.14-12.51.14:230][617]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.14:230][617]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.14:232][617]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.14:232][617]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.14:232][617]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.14:233][617]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.14:235][617]LogWorldPartition: Display: WorldPartition initialize took 3.607 ms (total: 13.0 sec)
+[2026.02.14-12.51.14:236][617]LogPlayLevel: PIE: World Init took: (0.005785s)
+[2026.02.14-12.51.14:236][617]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.14:242][617]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.14
+[2026.02.14-12.51.14:242][617]LogWorld: Bringing up level for play took: 0.005906
+[2026.02.14-12.51.14:253][617]LogLoad: Took 0.111010 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.14:253][617]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.14:263][617]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.14:345][622]Cmd: RestartLevel
+[2026.02.14-12.51.14:345][622]Cmd: RestartLevel
+[2026.02.14-12.51.14:345][622]Cmd: RestartLevel
+[2026.02.14-12.51.14:345][622]Cmd: RestartLevel
+[2026.02.14-12.51.14:345][622]Cmd: RestartLevel
+[2026.02.14-12.51.14:359][623]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.14:359][623]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.14:359][623]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.14:359][623]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.14:361][623]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.14:362][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.14:362][623]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.14:418][623]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.14:422][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.02.14-12.51.14:424][623]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.14:436][623]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.14:439][623]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.088 ms (total: 199.154 ms)
+[2026.02.14-12.51.14:440][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015965s)
+[2026.02.14-12.51.14:440][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016067s)
+[2026.02.14-12.51.14:440][623]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.14:440][623]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.14:442][623]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.14:442][623]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.14:442][623]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.14:442][623]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.14:445][623]LogWorldPartition: Display: WorldPartition initialize took 3.297 ms (total: 13.0 sec)
+[2026.02.14-12.51.14:445][623]LogPlayLevel: PIE: World Init took: (0.005330s)
+[2026.02.14-12.51.14:445][623]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.14:451][623]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.14
+[2026.02.14-12.51.14:452][623]LogWorld: Bringing up level for play took: 0.005142
+[2026.02.14-12.51.14:459][623]LogLoad: Took 0.099643 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.14:459][623]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.14:469][623]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.23:388][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-12.51.23:388][152]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.23:389][152]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.23:390][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.23:390][152]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.23:393][152]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-12.51.23:401][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.23:429][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-12.51.23:429][152]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2026.02.14-12.51.23:429][152]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2026.02.14-12.51.23:431][152]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2026.02.14-12.51.23:444][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.02.14-12.51.23:487][153]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2026.02.14-12.51.29:658][473]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.14-12.51.31:211][565]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.14-12.51.31:963][609]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-12.51.31:970][609]LogContentBundle: [Lvl_Finale(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.14-12.51.31:970][609]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Finale' started...
+[2026.02.14-12.51.31:972][609]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Finale' took 1.675 ms (total: 3.42 sec)
+[2026.02.14-12.51.31:972][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-12.51.31:972][609]LogPlayLevel: Display: Creating online subsystem for client :Context_31
+[2026.02.14-12.51.31:975][609]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2026.02.14-12.51.31:995][610]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.32:008][610]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.32:011][610]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.011 ms (total: 202.165 ms)
+[2026.02.14-12.51.32:011][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016529s)
+[2026.02.14-12.51.32:011][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016579s)
+[2026.02.14-12.51.32:043][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2026.02.14-12.51.32:045][610]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.32:047][610]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.32:047][610]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.32:047][610]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.32:047][610]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.32:050][610]LogWorldPartition: Display: WorldPartition initialize took 3.387 ms (total: 13.0 sec)
+[2026.02.14-12.51.32:050][610]LogPlayLevel: PIE: World Init took: (0.005537s)
+[2026.02.14-12.51.32:051][610]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2026.02.14-12.51.32:051][610]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-12.51.32:051][610]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-12.51.32:051][610]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-12.51.32:051][610]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-12.51.32:051][610]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-12.51.32:051][610]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-12.51.32:051][610]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-12.51.32:051][610]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-12.51.32:051][610]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-12.51.32:051][610]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-12.51.32:051][610]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-12.51.32:054][610]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-12.51.32:141][610]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2026.02.14-12.51.32:141][610]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-12.51.32:141][610]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-12.51.32:141][610]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-12.51.32:142][610]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2026.02.14-12.51.32:142][610]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2026.02.14-12.51.32:145][610]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2026.02.14-12.51.32:145][610]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2026.02.14-12.51.32:145][610]LogInit: FAudioDevice initialized with ID 15.
+[2026.02.14-12.51.32:145][610]LogAudio: Display: Audio Device (ID: 15) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.32:145][610]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2026.02.14-12.51.32:149][610]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.32:154][610]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.32
+[2026.02.14-12.51.32:155][610]LogWorld: Bringing up level for play took: 0.005168
+[2026.02.14-12.51.32:163][610]PIE: Server logged in
+[2026.02.14-12.51.32:166][610]PIE: Play in editor total start time 0,195 seconds.
+[2026.02.14-12.51.32:233][611]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.32:278][612]Cmd: RestartLevel
+[2026.02.14-12.51.32:278][612]Cmd: RestartLevel
+[2026.02.14-12.51.32:278][612]Cmd: RestartLevel
+[2026.02.14-12.51.32:278][612]Cmd: RestartLevel
+[2026.02.14-12.51.32:278][612]Cmd: RestartLevel
+[2026.02.14-12.51.32:305][613]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.32:305][613]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.32:305][613]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.32:305][613]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.32:307][613]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.32:308][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.32:308][613]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.32:345][613]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.32:350][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.02.14-12.51.32:352][613]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.32:364][613]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.32:367][613]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.010 ms (total: 205.175 ms)
+[2026.02.14-12.51.32:368][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015864s)
+[2026.02.14-12.51.32:368][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.015920s)
+[2026.02.14-12.51.32:368][613]LogAudio: Display: Audio Device (ID: 15) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.32:368][613]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.32:370][613]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.32:370][613]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.32:370][613]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.32:370][613]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.32:373][613]LogWorldPartition: Display: WorldPartition initialize took 3.441 ms (total: 13.0 sec)
+[2026.02.14-12.51.32:373][613]LogPlayLevel: PIE: World Init took: (0.005457s)
+[2026.02.14-12.51.32:373][613]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.32:378][613]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.32
+[2026.02.14-12.51.32:378][613]LogWorld: Bringing up level for play took: 0.004882
+[2026.02.14-12.51.32:386][613]LogLoad: Took 0.080748 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.32:386][613]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.32:396][613]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.33:832][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-12.51.33:832][697]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.33:832][697]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.33:834][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.33:834][697]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.33:836][697]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-12.51.33:844][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.33:874][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-12.51.33:875][697]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2026.02.14-12.51.33:875][697]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2026.02.14-12.51.33:877][697]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2026.02.14-12.51.33:890][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2026.02.14-12.51.33:969][698]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2026.02.14-12.51.39:670][ 13]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.14-12.51.40:422][ 57]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-12.51.40:431][ 57]LogContentBundle: [Lvl_Finale(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.14-12.51.40:432][ 57]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Finale' started...
+[2026.02.14-12.51.40:433][ 57]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Finale' took 1.230 ms (total: 3.42 sec)
+[2026.02.14-12.51.40:433][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-12.51.40:465][ 57]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2026.02.14-12.51.40:467][ 57]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2026.02.14-12.51.40:490][ 58]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.40:504][ 58]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.40:507][ 58]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.979 ms (total: 208.155 ms)
+[2026.02.14-12.51.40:507][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016422s)
+[2026.02.14-12.51.40:507][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016471s)
+[2026.02.14-12.51.40:539][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2026.02.14-12.51.40:541][ 58]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.40:543][ 58]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.40:543][ 58]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.40:543][ 58]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.40:543][ 58]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.40:546][ 58]LogWorldPartition: Display: WorldPartition initialize took 3.366 ms (total: 13.0 sec)
+[2026.02.14-12.51.40:546][ 58]LogPlayLevel: PIE: World Init took: (0.005419s)
+[2026.02.14-12.51.40:547][ 58]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2026.02.14-12.51.40:547][ 58]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-12.51.40:547][ 58]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-12.51.40:547][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-12.51.40:547][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-12.51.40:547][ 58]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-12.51.40:547][ 58]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-12.51.40:547][ 58]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-12.51.40:547][ 58]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-12.51.40:547][ 58]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-12.51.40:547][ 58]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-12.51.40:547][ 58]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-12.51.40:550][ 58]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-12.51.40:618][ 58]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2026.02.14-12.51.40:618][ 58]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-12.51.40:619][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-12.51.40:619][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-12.51.40:619][ 58]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2026.02.14-12.51.40:619][ 58]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2026.02.14-12.51.40:622][ 58]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2026.02.14-12.51.40:622][ 58]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2026.02.14-12.51.40:622][ 58]LogInit: FAudioDevice initialized with ID 16.
+[2026.02.14-12.51.40:622][ 58]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.40:622][ 58]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2026.02.14-12.51.40:627][ 58]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.40:632][ 58]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.40
+[2026.02.14-12.51.40:632][ 58]LogWorld: Bringing up level for play took: 0.005107
+[2026.02.14-12.51.40:641][ 58]PIE: Server logged in
+[2026.02.14-12.51.40:643][ 58]PIE: Play in editor total start time 0,211 seconds.
+[2026.02.14-12.51.40:708][ 59]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.40:752][ 60]Cmd: RestartLevel
+[2026.02.14-12.51.40:752][ 60]Cmd: RestartLevel
+[2026.02.14-12.51.40:752][ 60]Cmd: RestartLevel
+[2026.02.14-12.51.40:752][ 60]Cmd: RestartLevel
+[2026.02.14-12.51.40:753][ 60]Cmd: RestartLevel
+[2026.02.14-12.51.40:777][ 61]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.40:777][ 61]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.40:777][ 61]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.40:777][ 61]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.40:778][ 61]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.40:779][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.40:780][ 61]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.40:818][ 61]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.40:822][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.02.14-12.51.40:824][ 61]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.40:837][ 61]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.40:840][ 61]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.986 ms (total: 211.141 ms)
+[2026.02.14-12.51.40:840][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016025s)
+[2026.02.14-12.51.40:840][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016095s)
+[2026.02.14-12.51.40:840][ 61]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.40:840][ 61]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.40:842][ 61]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.40:842][ 61]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.40:842][ 61]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.40:842][ 61]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.40:846][ 61]LogWorldPartition: Display: WorldPartition initialize took 3.330 ms (total: 13.0 sec)
+[2026.02.14-12.51.40:846][ 61]LogPlayLevel: PIE: World Init took: (0.005521s)
+[2026.02.14-12.51.40:846][ 61]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.40:851][ 61]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.40
+[2026.02.14-12.51.40:851][ 61]LogWorld: Bringing up level for play took: 0.005090
+[2026.02.14-12.51.40:859][ 61]LogLoad: Took 0.082419 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.40:859][ 61]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.40:869][ 61]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.45:508][338]Cmd: RestartLevel
+[2026.02.14-12.51.45:524][339]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.45:524][339]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.45:524][339]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.45:524][339]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.45:525][339]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.45:526][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.45:526][339]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.45:584][339]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.45:588][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.02.14-12.51.45:590][339]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.45:604][339]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.45:607][339]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.085 ms (total: 214.227 ms)
+[2026.02.14-12.51.45:607][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016400s)
+[2026.02.14-12.51.45:607][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016461s)
+[2026.02.14-12.51.45:607][339]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.45:607][339]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.45:609][339]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.45:609][339]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.45:609][339]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.45:609][339]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.45:612][339]LogWorldPartition: Display: WorldPartition initialize took 3.534 ms (total: 13.0 sec)
+[2026.02.14-12.51.45:612][339]LogPlayLevel: PIE: World Init took: (0.005761s)
+[2026.02.14-12.51.45:613][339]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.45:618][339]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.45
+[2026.02.14-12.51.45:619][339]LogWorld: Bringing up level for play took: 0.005335
+[2026.02.14-12.51.45:626][339]LogLoad: Took 0.103199 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.45:626][339]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.45:639][339]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.48:499][508]Cmd: RestartLevel
+[2026.02.14-12.51.48:515][509]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.48:515][509]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.48:515][509]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.48:515][509]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.48:516][509]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.48:517][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.48:517][509]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.48:554][509]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.48:558][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.02.14-12.51.48:561][509]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.48:574][509]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.48:577][509]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.200 ms (total: 217.427 ms)
+[2026.02.14-12.51.48:578][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016743s)
+[2026.02.14-12.51.48:578][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016807s)
+[2026.02.14-12.51.48:578][509]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.48:578][509]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.48:580][509]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.48:580][509]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.48:580][509]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.48:580][509]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.48:584][509]LogWorldPartition: Display: WorldPartition initialize took 3.496 ms (total: 13.0 sec)
+[2026.02.14-12.51.48:584][509]LogPlayLevel: PIE: World Init took: (0.005646s)
+[2026.02.14-12.51.48:584][509]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.48:589][509]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.48
+[2026.02.14-12.51.48:589][509]LogWorld: Bringing up level for play took: 0.005147
+[2026.02.14-12.51.48:597][509]LogLoad: Took 0.081810 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.48:597][509]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.48:608][509]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.50:977][650]Cmd: RestartLevel
+[2026.02.14-12.51.50:992][651]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.50:993][651]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.50:993][651]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.50:993][651]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.50:994][651]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.50:995][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.50:995][651]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.51:029][651]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.51:033][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2026.02.14-12.51.51:035][651]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.51:048][651]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.51:051][651]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.055 ms (total: 220.482 ms)
+[2026.02.14-12.51.51:051][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016315s)
+[2026.02.14-12.51.51:051][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016388s)
+[2026.02.14-12.51.51:051][651]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.51:051][651]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.51:053][651]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.51:053][651]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.51:053][651]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.51:053][651]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.51:057][651]LogWorldPartition: Display: WorldPartition initialize took 3.411 ms (total: 13.0 sec)
+[2026.02.14-12.51.51:057][651]LogPlayLevel: PIE: World Init took: (0.005441s)
+[2026.02.14-12.51.51:057][651]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.51:062][651]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.51
+[2026.02.14-12.51.51:063][651]LogWorld: Bringing up level for play took: 0.005056
+[2026.02.14-12.51.51:070][651]LogLoad: Took 0.077839 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.51:070][651]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.51:082][651]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.53:414][790]Cmd: RestartLevel
+[2026.02.14-12.51.53:430][791]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.53:430][791]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.53:430][791]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.53:430][791]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.53:432][791]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.53:433][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.53:433][791]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.53:500][791]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.53:504][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.02.14-12.51.53:507][791]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.53:520][791]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.53:523][791]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.969 ms (total: 223.452 ms)
+[2026.02.14-12.51.53:523][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015847s)
+[2026.02.14-12.51.53:523][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.015909s)
+[2026.02.14-12.51.53:524][791]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.53:524][791]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.53:525][791]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.53:526][791]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.53:526][791]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.53:526][791]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.53:529][791]LogWorldPartition: Display: WorldPartition initialize took 3.341 ms (total: 13.0 sec)
+[2026.02.14-12.51.53:529][791]LogPlayLevel: PIE: World Init took: (0.005382s)
+[2026.02.14-12.51.53:529][791]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.53:534][791]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.53
+[2026.02.14-12.51.53:534][791]LogWorld: Bringing up level for play took: 0.005011
+[2026.02.14-12.51.53:542][791]LogLoad: Took 0.111391 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.53:542][791]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.53:554][791]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.53:634][796]Cmd: RestartLevel
+[2026.02.14-12.51.53:634][796]Cmd: RestartLevel
+[2026.02.14-12.51.53:634][796]Cmd: RestartLevel
+[2026.02.14-12.51.53:634][796]Cmd: RestartLevel
+[2026.02.14-12.51.53:634][796]Cmd: RestartLevel
+[2026.02.14-12.51.53:649][797]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.53:649][797]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.53:649][797]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.53:649][797]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.53:652][797]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.53:653][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.53:653][797]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.53:712][797]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.53:716][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.02.14-12.51.53:718][797]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.53:731][797]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.53:734][797]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.019 ms (total: 226.471 ms)
+[2026.02.14-12.51.53:735][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015954s)
+[2026.02.14-12.51.53:735][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016014s)
+[2026.02.14-12.51.53:735][797]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.53:735][797]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.53:737][797]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.53:737][797]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.53:737][797]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.53:737][797]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.53:740][797]LogWorldPartition: Display: WorldPartition initialize took 3.368 ms (total: 13.0 sec)
+[2026.02.14-12.51.53:740][797]LogPlayLevel: PIE: World Init took: (0.005400s)
+[2026.02.14-12.51.53:740][797]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.53:745][797]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.53
+[2026.02.14-12.51.53:745][797]LogWorld: Bringing up level for play took: 0.005149
+[2026.02.14-12.51.53:753][797]LogLoad: Took 0.103628 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.53:753][797]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.53:765][797]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.55:963][928]Cmd: RestartLevel
+[2026.02.14-12.51.55:978][929]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.55:978][929]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.55:978][929]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.55:978][929]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.55:980][929]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.55:981][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.55:981][929]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.56:018][929]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.56:022][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2026.02.14-12.51.56:025][929]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.56:038][929]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.56:042][929]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.149 ms (total: 229.620 ms)
+[2026.02.14-12.51.56:042][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016598s)
+[2026.02.14-12.51.56:042][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016671s)
+[2026.02.14-12.51.56:042][929]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.56:042][929]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.56:044][929]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.56:044][929]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.56:044][929]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.56:044][929]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.56:047][929]LogWorldPartition: Display: WorldPartition initialize took 3.525 ms (total: 13.0 sec)
+[2026.02.14-12.51.56:047][929]LogPlayLevel: PIE: World Init took: (0.005613s)
+[2026.02.14-12.51.56:047][929]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.56:053][929]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.56
+[2026.02.14-12.51.56:053][929]LogWorld: Bringing up level for play took: 0.005300
+[2026.02.14-12.51.56:061][929]LogLoad: Took 0.082769 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.56:061][929]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.56:072][929]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.51.58:420][ 69]Cmd: RestartLevel
+[2026.02.14-12.51.58:435][ 70]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.51.58:435][ 70]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.51.58:435][ 70]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.51.58:435][ 70]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.58:436][ 70]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.51.58:437][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.51.58:437][ 70]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.51.58:489][ 70]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.51.58:492][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.02.14-12.51.58:495][ 70]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.58:508][ 70]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.51.58:511][ 70]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.991 ms (total: 232.612 ms)
+[2026.02.14-12.51.58:511][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015973s)
+[2026.02.14-12.51.58:511][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016031s)
+[2026.02.14-12.51.58:511][ 70]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.51.58:511][ 70]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.51.58:513][ 70]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.51.58:513][ 70]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.51.58:513][ 70]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.51.58:513][ 70]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.51.58:517][ 70]LogWorldPartition: Display: WorldPartition initialize took 3.293 ms (total: 13.0 sec)
+[2026.02.14-12.51.58:517][ 70]LogPlayLevel: PIE: World Init took: (0.005351s)
+[2026.02.14-12.51.58:517][ 70]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.51.58:522][ 70]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.51.58
+[2026.02.14-12.51.58:523][ 70]LogWorld: Bringing up level for play took: 0.004983
+[2026.02.14-12.51.58:530][ 70]LogLoad: Took 0.095193 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.51.58:530][ 70]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.51.58:541][ 70]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.52.00:904][211]Cmd: RestartLevel
+[2026.02.14-12.52.00:920][212]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.52.00:920][212]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.52.00:920][212]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.52.00:920][212]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.00:921][212]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.00:922][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.00:922][212]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.52.00:958][212]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.52.00:963][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2026.02.14-12.52.00:966][212]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.00:979][212]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.52.00:982][212]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.973 ms (total: 235.585 ms)
+[2026.02.14-12.52.00:982][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015992s)
+[2026.02.14-12.52.00:982][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016059s)
+[2026.02.14-12.52.00:982][212]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.52.00:983][212]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.52.00:985][212]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.52.00:985][212]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.52.00:985][212]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.52.00:985][212]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.52.00:988][212]LogWorldPartition: Display: WorldPartition initialize took 3.377 ms (total: 13.0 sec)
+[2026.02.14-12.52.00:988][212]LogPlayLevel: PIE: World Init took: (0.005533s)
+[2026.02.14-12.52.00:988][212]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.52.00:993][212]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.52.00
+[2026.02.14-12.52.00:994][212]LogWorld: Bringing up level for play took: 0.005083
+[2026.02.14-12.52.01:001][212]LogLoad: Took 0.080972 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.52.01:002][212]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.01:012][212]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.52.03:227][344]Cmd: RestartLevel
+[2026.02.14-12.52.03:243][345]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.52.03:243][345]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.52.03:243][345]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.52.03:243][345]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.03:244][345]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.03:245][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.03:245][345]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.52.03:280][345]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.52.03:285][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2026.02.14-12.52.03:288][345]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.03:303][345]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.52.03:306][345]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.155 ms (total: 238.741 ms)
+[2026.02.14-12.52.03:306][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017451s)
+[2026.02.14-12.52.03:306][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.017523s)
+[2026.02.14-12.52.03:306][345]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.52.03:306][345]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.52.03:308][345]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.52.03:308][345]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.52.03:308][345]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.52.03:308][345]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.52.03:311][345]LogWorldPartition: Display: WorldPartition initialize took 3.394 ms (total: 13.0 sec)
+[2026.02.14-12.52.03:311][345]LogPlayLevel: PIE: World Init took: (0.005436s)
+[2026.02.14-12.52.03:311][345]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.52.03:317][345]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.52.03
+[2026.02.14-12.52.03:317][345]LogWorld: Bringing up level for play took: 0.005236
+[2026.02.14-12.52.03:325][345]LogLoad: Took 0.081932 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.52.03:325][345]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.03:336][345]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.52.05:784][491]Cmd: RestartLevel
+[2026.02.14-12.52.05:799][492]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.52.05:799][492]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.52.05:799][492]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.52.05:800][492]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.05:801][492]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.05:802][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.05:802][492]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.52.05:836][492]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.52.05:840][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.02.14-12.52.05:843][492]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.05:858][492]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.52.05:861][492]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.137 ms (total: 241.878 ms)
+[2026.02.14-12.52.05:861][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018076s)
+[2026.02.14-12.52.05:861][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.018145s)
+[2026.02.14-12.52.05:861][492]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.52.05:861][492]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.52.05:863][492]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.52.05:863][492]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.52.05:863][492]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.52.05:863][492]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.52.05:867][492]LogWorldPartition: Display: WorldPartition initialize took 3.595 ms (total: 13.0 sec)
+[2026.02.14-12.52.05:867][492]LogPlayLevel: PIE: World Init took: (0.005735s)
+[2026.02.14-12.52.05:867][492]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.52.05:872][492]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.52.05
+[2026.02.14-12.52.05:873][492]LogWorld: Bringing up level for play took: 0.005170
+[2026.02.14-12.52.05:880][492]LogLoad: Took 0.080556 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.52.05:881][492]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.05:892][492]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.52.08:925][673]Cmd: RestartLevel
+[2026.02.14-12.52.08:940][674]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.52.08:940][674]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.52.08:940][674]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.52.08:940][674]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.08:941][674]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.08:942][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.08:942][674]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.52.08:974][674]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.52.08:978][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.02.14-12.52.08:980][674]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.08:994][674]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.52.08:997][674]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.975 ms (total: 244.854 ms)
+[2026.02.14-12.52.08:997][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016502s)
+[2026.02.14-12.52.08:997][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016563s)
+[2026.02.14-12.52.08:997][674]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.52.08:997][674]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.52.09:000][674]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.52.09:000][674]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.52.09:000][674]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.52.09:000][674]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.52.09:003][674]LogWorldPartition: Display: WorldPartition initialize took 3.537 ms (total: 13.1 sec)
+[2026.02.14-12.52.09:004][674]LogPlayLevel: PIE: World Init took: (0.006788s)
+[2026.02.14-12.52.09:004][674]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.52.09:010][674]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.52.09
+[2026.02.14-12.52.09:010][674]LogWorld: Bringing up level for play took: 0.005671
+[2026.02.14-12.52.09:018][674]LogLoad: Took 0.078218 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.52.09:018][674]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.09:031][674]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.52.11:804][839]Cmd: RestartLevel
+[2026.02.14-12.52.11:820][840]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.52.11:820][840]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.52.11:820][840]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.52.11:820][840]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.11:821][840]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.11:822][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.11:822][840]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.52.11:857][840]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.52.11:861][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2026.02.14-12.52.11:864][840]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.11:878][840]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.52.11:881][840]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.070 ms (total: 247.924 ms)
+[2026.02.14-12.52.11:881][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017051s)
+[2026.02.14-12.52.11:881][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.017122s)
+[2026.02.14-12.52.11:881][840]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.52.11:881][840]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.52.11:884][840]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.52.11:884][840]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.52.11:884][840]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.52.11:884][840]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.52.11:887][840]LogWorldPartition: Display: WorldPartition initialize took 3.414 ms (total: 13.1 sec)
+[2026.02.14-12.52.11:887][840]LogPlayLevel: PIE: World Init took: (0.005745s)
+[2026.02.14-12.52.11:887][840]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.52.11:892][840]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.52.11
+[2026.02.14-12.52.11:893][840]LogWorld: Bringing up level for play took: 0.005074
+[2026.02.14-12.52.11:901][840]LogLoad: Took 0.080766 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.52.11:901][840]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.11:912][840]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.52.14:540][997]Cmd: RestartLevel
+[2026.02.14-12.52.14:555][998]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.52.14:555][998]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.52.14:555][998]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.52.14:555][998]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.14:556][998]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.14:557][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.14:557][998]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.52.14:619][998]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.52.14:623][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.02.14-12.52.14:626][998]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.14:639][998]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.52.14:642][998]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.104 ms (total: 251.029 ms)
+[2026.02.14-12.52.14:642][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015996s)
+[2026.02.14-12.52.14:642][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016077s)
+[2026.02.14-12.52.14:642][998]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.52.14:642][998]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.52.14:644][998]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.52.14:644][998]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.52.14:644][998]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.52.14:644][998]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.52.14:648][998]LogWorldPartition: Display: WorldPartition initialize took 3.331 ms (total: 13.1 sec)
+[2026.02.14-12.52.14:648][998]LogPlayLevel: PIE: World Init took: (0.005376s)
+[2026.02.14-12.52.14:648][998]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.52.14:653][998]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.52.14
+[2026.02.14-12.52.14:653][998]LogWorld: Bringing up level for play took: 0.005107
+[2026.02.14-12.52.14:661][998]LogLoad: Took 0.105975 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.52.14:661][998]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.14:672][998]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.52.14:768][  4]Cmd: RestartLevel
+[2026.02.14-12.52.14:768][  4]Cmd: RestartLevel
+[2026.02.14-12.52.14:768][  4]Cmd: RestartLevel
+[2026.02.14-12.52.14:768][  4]Cmd: RestartLevel
+[2026.02.14-12.52.14:768][  4]Cmd: RestartLevel
+[2026.02.14-12.52.14:784][  5]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.52.14:784][  5]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.52.14:784][  5]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.52.14:784][  5]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.14:785][  5]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.14:787][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.14:787][  5]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.52.14:819][  5]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.52.14:823][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2026.02.14-12.52.14:825][  5]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.14:840][  5]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.52.14:843][  5]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.190 ms (total: 254.220 ms)
+[2026.02.14-12.52.14:843][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016887s)
+[2026.02.14-12.52.14:843][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016943s)
+[2026.02.14-12.52.14:843][  5]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.52.14:843][  5]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.52.14:845][  5]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.52.14:845][  5]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.52.14:845][  5]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.52.14:845][  5]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.52.14:849][  5]LogWorldPartition: Display: WorldPartition initialize took 3.568 ms (total: 13.1 sec)
+[2026.02.14-12.52.14:849][  5]LogPlayLevel: PIE: World Init took: (0.005703s)
+[2026.02.14-12.52.14:849][  5]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.52.14:854][  5]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.52.14
+[2026.02.14-12.52.14:854][  5]LogWorld: Bringing up level for play took: 0.005209
+[2026.02.14-12.52.14:862][  5]LogLoad: Took 0.078679 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.52.14:862][  5]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.14:873][  5]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.52.18:050][195]Cmd: RestartLevel
+[2026.02.14-12.52.18:065][196]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Level/Lvl_Finale?restart"
+[2026.02.14-12.52.18:065][196]LogNet: Browse: /Game/Level/Lvl_Finale?restart
+[2026.02.14-12.52.18:065][196]LogLoad: LoadMap: /Game/Level/Lvl_Finale
+[2026.02.14-12.52.18:065][196]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.18:067][196]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.18:068][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.18:068][196]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.52.18:101][196]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.52.18:106][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.02.14-12.52.18:108][196]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.18:122][196]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-12.52.18:125][196]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 3.125 ms (total: 257.345 ms)
+[2026.02.14-12.52.18:125][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016928s)
+[2026.02.14-12.52.18:125][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.016984s)
+[2026.02.14-12.52.18:125][196]LogAudio: Display: Audio Device (ID: 16) registered with world 'Lvl_Finale'.
+[2026.02.14-12.52.18:125][196]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-12.52.18:127][196]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-12.52.18:127][196]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-12.52.18:127][196]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-12.52.18:127][196]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-12.52.18:131][196]LogWorldPartition: Display: WorldPartition initialize took 3.369 ms (total: 13.1 sec)
+[2026.02.14-12.52.18:131][196]LogPlayLevel: PIE: World Init took: (0.005422s)
+[2026.02.14-12.52.18:131][196]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.52.18:136][196]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 60) at 2026.02.14-13.52.18
+[2026.02.14-12.52.18:136][196]LogWorld: Bringing up level for play took: 0.005023
+[2026.02.14-12.52.18:145][196]LogLoad: Took 0.079988 seconds to LoadMap(/Game/Level/UEDPIE_0_Lvl_Finale)
+[2026.02.14-12.52.18:145][196]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.18:157][196]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.52.20:115][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-12.52.20:115][311]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-12.52.20:115][311]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.20:116][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.20:116][311]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-12.52.20:118][311]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-12.52.20:126][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.20:158][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-12.52.20:158][311]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2026.02.14-12.52.20:158][311]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=4
+[2026.02.14-12.52.20:161][311]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
+[2026.02.14-12.52.20:174][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.02.14-12.52.20:256][312]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2026.02.14-12.52.21:562][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.14-12.52.21:673][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/3/3K/2PV74MNACYQZR2R5NJCKUX
+[2026.02.14-12.52.21:674][388]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/2PV74MNACYQZR2R5NJCKUX40DB6DC140D1F2AFFD8EFC956B8D43F1.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/3/3K/2PV74MNACYQZR2R5NJCKUX.uasset'
+[2026.02.14-12.52.21:691][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.013 ms (total: 26.5 sec)
+[2026.02.14-12.52.21:802][388]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.14-12.52.21:802][388]LogContentValidation: Enabled validators:
+[2026.02.14-12.52.21:802][388]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.14-12.52.21:802][388]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.14-12.52.21:802][388]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.14-12.52.21:802][388]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.14-12.52.21:802][388]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.14-12.52.21:802][388]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.14-12.52.21:802][388]AssetCheck: /Game/Level/Lvl_Finale Validating asset
+[2026.02.14-12.52.21:839][388]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.14-12.52.31:248][926]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2026.02.14-12.52.31:251][926]LogStreaming: Display: FlushAsyncLoading(16135): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.14-12.52.31:262][926]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_02
+[2026.02.14-12.52.31:280][926]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/Lvl_02.Lvl_02
+[2026.02.14-12.52.31:281][926]Cmd: MAP LOAD FILE="../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/Level/Lvl_02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.02.14-12.52.31:324][926]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.31:325][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.31:325][926]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/Lvl_Finale.Lvl_Finale
+[2026.02.14-12.52.31:380][926]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.14-12.52.31:386][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.02.14-12.52.31:389][926]LogWorld: UWorld::CleanupWorld for Lvl_02, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-12.52.31:389][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-12.52.31:423][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2026.02.14-12.52.31:552][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.02.14-12.52.31:567][926]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_02'.
+[2026.02.14-12.52.31:567][926]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_02
+[2026.02.14-12.52.31:606][926]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.02.14-12.52.31:643][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.02.14-12.52.31:663][926]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.02.14-12.52.31:663][926]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,079ms to complete.
+[2026.02.14-12.52.31:837][927]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-12.52.48:805][906]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.14-12.52.51:842][ 68]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.02.14-12.52.54:008][196]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.14-12.52.54:165][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.02.14-12.52.54:210][196]LogSavePackage: Moving output files for package: /Game/Level/Lvl_02
+[2026.02.14-12.52.54:211][196]LogSavePackage: Moving '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/Lvl_0239E0355B471726E51DC1F79622896D33.tmp' to '../../../../../../Users/flash/Desktop/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/Level/Lvl_02.umap'
+[2026.02.14-12.52.54:235][196]LogFileHelpers: Saving map 'Lvl_02' took 0.140
+[2026.02.14-12.52.54:253][196]LogFileHelpers: InternalPromptForCheckoutAndSave took 245.653 ms (total: 26.8 sec)
+[2026.02.14-12.52.54:356][196]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.14-12.52.54:356][196]LogContentValidation: Enabled validators:
+[2026.02.14-12.52.54:356][196]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.14-12.52.54:356][196]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.14-12.52.54:356][196]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.14-12.52.54:356][196]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.14-12.52.54:356][196]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.14-12.52.54:356][196]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.14-12.52.54:357][196]AssetCheck: /Game/Level/Lvl_02 Validating asset
+[2026.02.14-12.53.02:338][673]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.14-12.53.02:346][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-12.53.02:346][673]LogPlayLevel: Display: Creating online subsystem for client :Context_33
+[2026.02.14-12.53.02:348][673]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.02.14-12.53.02:368][674]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_02
+[2026.02.14-12.53.02:378][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011150s)
+[2026.02.14-12.53.02:378][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_02.Lvl_02 to /Game/Level/UEDPIE_0_Lvl_02.Lvl_02 (0.011212s)
+[2026.02.14-12.53.02:412][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2026.02.14-12.53.02:413][674]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_02
+[2026.02.14-12.53.02:416][674]LogPlayLevel: PIE: World Init took: (0.002099s)
+[2026.02.14-12.53.02:417][674]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2026.02.14-12.53.02:417][674]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-12.53.02:417][674]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-12.53.02:417][674]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-12.53.02:417][674]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-12.53.02:417][674]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-12.53.02:417][674]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-12.53.02:417][674]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-12.53.02:417][674]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-12.53.02:417][674]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-12.53.02:417][674]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-12.53.02:417][674]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-12.53.02:419][674]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-12.53.02:495][674]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2026.02.14-12.53.02:495][674]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-12.53.02:495][674]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-12.53.02:495][674]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-12.53.02:496][674]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2026.02.14-12.53.02:496][674]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2026.02.14-12.53.02:499][674]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2026.02.14-12.53.02:499][674]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2026.02.14-12.53.02:499][674]LogInit: FAudioDevice initialized with ID 17.
+[2026.02.14-12.53.02:499][674]LogAudio: Display: Audio Device (ID: 17) registered with world 'Lvl_02'.
+[2026.02.14-12.53.02:499][674]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2026.02.14-12.53.02:503][674]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-12.53.02:507][674]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_02.Lvl_02 up for play (max tick rate 60) at 2026.02.14-13.53.02
+[2026.02.14-12.53.02:508][674]LogWorld: Bringing up level for play took: 0.004560
+[2026.02.14-12.53.02:516][674]PIE: Server logged in
+[2026.02.14-12.53.02:519][674]PIE: Play in editor total start time 0,174 seconds.
+[2026.02.14-12.53.02:591][675]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
