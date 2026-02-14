@@ -3320,3 +3320,11 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.14-13.48.56:019][ 96]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.02.14-13.48.56:019][ 96]AssetCheck: /Game/Level/Lvl_Finale Weryfikowanie zasobu
 [2026.02.14-13.48.56:050][ 96]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.14-13.49.17:072][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.14-13.49.17:109][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2026.02.14-13.49.17:118][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2026.02.14-13.49.17:131][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2026.02.14-13.49.17:143][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.078 ms (total: 285.960 ms)
+[2026.02.14-13.49.19:152][494]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1311.446899
+[2026.02.14-13.49.20:154][496]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.14-13.49.20:154][496]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1312.116333, Update Interval: 301.316559
