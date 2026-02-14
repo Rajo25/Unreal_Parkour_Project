@@ -3328,3 +3328,96 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.14-13.49.19:152][494]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1311.446899
 [2026.02.14-13.49.20:154][496]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.02.14-13.49.20:154][496]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1312.116333, Update Interval: 301.316559
+[2026.02.14-13.50.49:463][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.14-13.50.49:507][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2026.02.14-13.50.49:519][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2026.02.14-13.50.49:531][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2026.02.14-13.50.49:539][202]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/5/JC/CGKXOLXX232Q57IHA9N0GR
+[2026.02.14-13.50.49:539][202]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/CGKXOLXX232Q57IHA9N0GRC8958BE346F8F122B38E05B0313E1937.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/5/JC/CGKXOLXX232Q57IHA9N0GR.uasset'
+[2026.02.14-13.50.49:547][202]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/9/85/MVAFZ3QEOXOSFVS63MOVP2
+[2026.02.14-13.50.49:547][202]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/MVAFZ3QEOXOSFVS63MOVP2F63D424443945CA02623FFADEA90525C.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/9/85/MVAFZ3QEOXOSFVS63MOVP2.uasset'
+[2026.02.14-13.50.49:552][202]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/E/D6/UBO55QB3YNTWHA3ZWZACXL
+[2026.02.14-13.50.49:552][202]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/UBO55QB3YNTWHA3ZWZACXL977D72704E2AE8395671A0804CF93CC0.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/E/D6/UBO55QB3YNTWHA3ZWZACXL.uasset'
+[2026.02.14-13.50.49:558][202]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_Finale/8/QE/B4QLJVON6BLQVDMHOVAJQS
+[2026.02.14-13.50.49:558][202]LogSavePackage: Moving '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Saved/B4QLJVON6BLQVDMHOVAJQS1869811E4E44721F2A1D7C910A80F461.tmp' to '../../../../../../Users/micha/Documents/GitHub/Unreal_Parkour_Project/Zaliczenie_Unreal/Content/__ExternalActors__/Level/Lvl_Finale/8/QE/B4QLJVON6BLQVDMHOVAJQS.uasset'
+[2026.02.14-13.50.49:569][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.410 ms (total: 391.371 ms)
+[2026.02.14-13.50.49:595][202]LogContentValidation: Display: Starting to validate 4 assets
+[2026.02.14-13.50.49:595][202]LogContentValidation: Enabled validators:
+[2026.02.14-13.50.49:595][202]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.14-13.50.49:595][202]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.14-13.50.49:595][202]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.14-13.50.49:595][202]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.14-13.50.49:595][202]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.14-13.50.49:595][202]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.14-13.50.49:595][202]AssetCheck: /Game/Level/Lvl_Finale Weryfikowanie zasobu
+[2026.02.14-13.50.50:648][327]LogDebuggerCommands: Repeating last play command: Wybrane okno wizualizacji
+[2026.02.14-13.50.50:652][327]LogContentBundle: [Lvl_Finale(Edytor)] Generating Streaming for 0 Content Bundles.
+[2026.02.14-13.50.50:652][327]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Finale' started...
+[2026.02.14-13.50.50:652][327]LogWorldPartition: Display: GenerateStreaming for 'Lvl_Finale' took 620 us (total: 49.252 ms)
+[2026.02.14-13.50.50:653][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.14-13.50.50:681][327]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-13.50.50:689][327]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.14-13.50.50:690][327]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.667 ms (total: 73.734 ms)
+[2026.02.14-13.50.50:690][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009034s)
+[2026.02.14-13.50.50:690][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_Finale.Lvl_Finale to /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale (0.009060s)
+[2026.02.14-13.50.50:703][327]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2026.02.14-13.50.50:703][327]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_Finale
+[2026.02.14-13.50.50:704][327]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_Finale)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.14-13.50.50:704][327]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.14-13.50.50:704][327]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.14-13.50.50:704][327]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.14-13.50.50:706][327]LogWorldPartition: Display: WorldPartition initialize took 1.840 ms (total: 217.710 ms)
+[2026.02.14-13.50.50:706][327]LogPlayLevel: PIE: World Init took: (0.002963s)
+[2026.02.14-13.50.50:707][327]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.02.14-13.50.50:707][327]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.14-13.50.50:707][327]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.14-13.50.50:707][327]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.14-13.50.50:707][327]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.14-13.50.50:707][327]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.14-13.50.50:707][327]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.14-13.50.50:707][327]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.14-13.50.50:707][327]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.14-13.50.50:707][327]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.14-13.50.50:707][327]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.14-13.50.50:707][327]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.14-13.50.50:708][327]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.14-13.50.50:721][327]LogAudioMixer: Display: Using Audio Hardware Device ASUS VG24VQ1B (NVIDIA High Definition Audio)
+[2026.02.14-13.50.50:721][327]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.14-13.50.50:721][327]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.14-13.50.50:721][327]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.14-13.50.50:721][327]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.02.14-13.50.50:721][327]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.02.14-13.50.50:723][327]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.02.14-13.50.50:723][327]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.02.14-13.50.50:723][327]LogInit: FAudioDevice initialized with ID 12.
+[2026.02.14-13.50.50:723][327]LogAudio: Display: Audio Device (ID: 12) registered with world 'Lvl_Finale'.
+[2026.02.14-13.50.50:723][327]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.02.14-13.50.50:725][327]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.14-13.50.50:728][327]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale up for play (max tick rate 0) at 2026.02.14-14.50.50
+[2026.02.14-13.50.50:728][327]LogWorld: Bringing up level for play took: 0.002753
+[2026.02.14-13.50.50:729][327]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2026.02.14-13.50.50:734][327]PIE: Serwer zalogowany
+[2026.02.14-13.50.50:735][327]PIE: Łączny czas uruchamiania trybu Graj w edytorze: 0,083 s
+[2026.02.14-13.50.50:766][328]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.14-13.50.53:502][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-13.50.53:502][649]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_Finale
+[2026.02.14-13.50.53:502][649]LogWorld: UWorld::CleanupWorld for Lvl_Finale, bSessionEnded=true, bCleanupResources=true
+[2026.02.14-13.50.53:504][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-13.50.53:504][649]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_Finale.Lvl_Finale
+[2026.02.14-13.50.53:505][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.14-13.50.53:507][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.14-13.50.53:522][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.14-13.50.53:523][649]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.02.14-13.50.53:523][649]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2026.02.14-13.50.53:524][649]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2026.02.14-13.50.53:529][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.02.14-13.50.53:579][650]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2026.02.14-13.51.11:859][836]LogSlate: Window 'Dziennik komunikatów' being destroyed
+[2026.02.14-13.51.11:863][836]LogSlate: Window 'Dziennik komunikatów' being destroyed
+[2026.02.14-13.51.38:643][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.14-13.51.38:677][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2026.02.14-13.51.38:689][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2026.02.14-13.51.38:701][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2026.02.14-13.51.38:706][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.826 ms (total: 455.198 ms)
